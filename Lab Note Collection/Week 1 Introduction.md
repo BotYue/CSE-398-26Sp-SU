@@ -2,7 +2,7 @@
 
 **Date:** Jan 12  
 No class on Jan 14, 19
-First actual lab on Jan 22
+<br>First actual lab on Jan 22
 
 -------------------
 
