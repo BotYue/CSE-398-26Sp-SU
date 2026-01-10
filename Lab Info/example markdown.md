@@ -55,6 +55,8 @@
 
 ​	It poped out a GUI.
 
+  [ Note: you are free to use AI tools. If you use AI tools, should state it.]
+  
 * I can now navigate in the GUI and enable I2C in here.
 * I tried this in shell:
   ```ls /dev/i2c-*``` , I saw new I2C device, named i2c-1
@@ -83,3 +85,4 @@
 
 ##### Everything was verified by lab staff on Jan/10, Mon 1:30 pm
 
+##### Convert to .PDF then submit to BlackBoard
