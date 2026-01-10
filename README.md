@@ -4,4 +4,4 @@ Course materials for CSE 398, 2026 Spring, Syracuse University
 
 Instructor: Yue Cao
 
-Junior-Level Computer-Engineering Design Course on Raspberry Pi
+Junior-Level Computer-Engineering Design Lab on Raspberry Pi
