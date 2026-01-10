@@ -1,7 +1,7 @@
-# Week 3: Pi set-up
+# Week 2: Raspberry Pi Setup
 
 ---------------
-#### :dizzy: **Lab Date :** Jan 21 
+#### :dizzy: **Lab Date :** Jan 21 Wednesday
 #### :alarm_clock: **Due Date :** 2:00 pm Jan 26   
 #### :pencil: Every group member must be present for every check point.
 -------------------
