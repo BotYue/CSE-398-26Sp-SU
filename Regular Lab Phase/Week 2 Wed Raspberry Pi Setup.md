@@ -1,4 +1,4 @@
-# Week 2: Raspberry Pi Setup
+# Week 2 Wed Raspberry Pi Setup
 
 ---------------
 #### :dizzy: **Lab Date :** Jan 21 Wednesday
