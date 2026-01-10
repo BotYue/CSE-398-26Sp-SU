@@ -9,7 +9,7 @@
 | Week 3 | **Jan 26**<br>Raspberry Pi OS | **Jan 28**<br>GPIO |
 | Week 4 | **Feb 2**<br>I2C | **Feb 4**<br>SPI|
 | Week 5 | **Feb 9**<br>Network Socket | **Feb 11**<br>Sensor/Motor with Arduino |
-| Week 6 | **Feb 16**<br>Web App Design| **Feb 18**<br>Web App Design |
+| Week 6 | **Feb 16**<br>Web App Development | **Feb 18**<br>Web App Development |
 | Week 7 | **Feb 23**<br>Speech Recognition | **Feb 25**<br>Large Language Models |
 | Week 8 | **Mar 2**<br>Computer Vision | **Mar 4**<br>Computer Vision |
 | Week 9 | **~Mar 9~**<br>~No Class~ (Spring Break) | **~Mar 11~**<br>~No Class~ (Spring Break) |
@@ -25,7 +25,7 @@
 | Week 3 | **Jan 26** | **Jan 28**<br>Git & GitHub Essentials|
 | Week 4 | **Feb 2**<br>Embedded Communication Protocols | **Feb 4**|
 | Week 5 | **Feb 9**<br>ZeroMQ Tutorial | **Feb 11**<br>Terminal-Based AI Coding Agents |
-| Week 6 | **Feb 16**<br>Automated App Building with AI| **~Feb 18~** |
+| Week 6 | **Feb 16**<br>Web App Development with Python Flask| **~Feb 18~** |
 | Week 7 | **Feb 23**<br>OpenAI Platform for Developers | **Feb 25**<br>Google AI Studio for Developers|
 | Week 8 | **Mar 2**<br>PyTorch Computer Vision I | **Mar 4**<br>PyTorch Computer Vision I |
 | Week 9 | **~Mar 9~**<br>~No Class~ | **~Mar 11~**<br>~No Class~ |
