@@ -6,9 +6,6 @@
 #### :pencil: Every group member must be present for every check point.
 -------------------
 
-## Task List
-
-------------------
 ## 1. Preparation
 - [ ] **Unpack your Pi 5**
 
@@ -16,6 +13,12 @@
 
 The cooler is Geekworm Active Cooler H505. Installed as this picture:
 
+Extra Note:
+* Stick 5 pieces thermal pads first, then mount the cooler.
+* If the 9x9 thermal pad is too small for you to put, it can be ignored.
+* yellow wire near the outside edge of the board, not the red wire.
+
+<img src="Pic/H505-Installation.jpg" width="600"/>
 
 ## 2. Set MicroSD card 
 - [ ] **Image Raspberry Pi OS into microSD card**
@@ -27,8 +30,6 @@ The cooler is Geekworm Active Cooler H505. Installed as this picture:
     <img src="Pic/pi install.png" width="600"/>
   
   
-
-
 - [ ] **Insert MicroSD card into the slot of your Pi**
 
 ## 3. Connect and Start your Pi 
@@ -61,10 +62,11 @@ The cooler is Geekworm Active Cooler H505. Installed as this picture:
   <br>It can be installed without command line.  
   <br>You can also install Typora or something else.
 
-  <br>Create a new .md file, type the following:
-* your username and password of your raspberrp pi.
-* Convert to .PDF format
-* Submit to BlackBoard
+  <br>Create a new .md file, do the following: 
+1. Refer to [Example Markdown Guide](../Lab%20Info/example%20markdown.md) , to type down your header</li>
+2. Type the username and password of your Raspberry Pi.</li>
+3. Convert to .PDF format</li>
+4. Submit to BlackBoard</li>
 
 :pushpin: Since next lab, every thing you conduct need to be recorded in your Markdown.
 
