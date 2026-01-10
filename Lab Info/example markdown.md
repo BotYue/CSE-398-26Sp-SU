@@ -1,24 +1,27 @@
-### Lab 6 Work Log
+> \[!NOTE]
+> This is a template showing you how to format a Markdown file to record lab work. 
 
---------------------
+### Week 6 Wed I2C Interface
 
-##### Lab topic: Basic I2C interface
+##### Group members: Yue Cao, Jiamin Zhao, Duane Marcy
+##### All check points verfied on Feb 30
 
-##### Group member: Yue Cao, Jiamin Zhao, Duane Marcy
-
-[ Note: This is a template showing you how to format a Markdown file to record lab work. ]
 
 --------------------------------
 
-##### Jan/10, Mon 12:00 - 12:30 pm
+##### Feb 30, Mon 12:00 - 12:30 pm
 
-[ Note we recommend you pause to log your progress within 30 minutes, even every 15 minutes, or any time you made significant progress.]
+> \[!NOTE]
+> Note we recommend you pause to log your progress within 30 minutes, even every 15 minutes, or any time you made significant progress.
 
 * I try to test a soil sensor with I2C conection to my Pi 5
-   <br>[ Note: It is OK if there are minor grammar issues or typos. The content just needs to be understandable by others..]
+
+> \[!NOTE]
+>  It is fine if there are grammar issues or typos. Just make your tech content understandable.
 
 * I selected "Adafruit STEMMA Soil Sensor" from the shelf. I looked up online and found its document on https://www.adafruit.com/product/4026 
-   <br>[ Note: keep all useful website links in the log..]
+> \[!NOTE]
+> Also keep all useful website links in the log..
 
 * I checked its pinout connection on https://learn.adafruit.com/adafruit-stemma-soil-sensor-i2c-capacitive-moisture-sensor/pinouts . 
   It is:
@@ -28,7 +31,8 @@
   * white: I2C SDA
   * green: I2C SCL
 
-  [ Note: carefully record all you hardware info, so that you can re-create.]
+> \[!NOTE]
+> Note: carefully record all you hardware info, so that you can re-make.
 
 * I try this in shell:
   ```bash
@@ -36,13 +40,15 @@
   ```
   it shows 2 bus.
 
-  [ Note: carefully record everything you tried in shell command line. As well as output. Command line can use bash or shell code format in Markdown. ]
+> \[!NOTE]
+> carefully record everything you tried in shell command line. As well as output. Command line can use bash or shell code format in Markdown. 
   
 * In shell, I can use ```i2cdetect -y 11``` or ```i2cdetect -y 12``` , but the address at 0x36 is  --
 
   It seems not working.
 
-  [ Note: if you encountered issues, also record it and how it happened.]
+> \[!NOTE]
+> Note: if you encountered issues, also record it and how it happened.
 
 -----------------------
 
@@ -55,7 +61,8 @@
 
 ​	It poped out a GUI.
 
-  [ Note: you are free to use AI tools. If you use AI tools, should state it.]
+> \[!NOTE]
+> Note: you are free to use AI tools. If you use AI tools, should state it.
   
 * I can now navigate in the GUI and enable I2C in here.
 * I tried this in shell:
@@ -77,12 +84,8 @@
  print(chip_id)
  ```
 
-[ Note: you can specify the code format for code block (Python/C/shell/...)..]
-
 * It works! 
 
 ------------------------
 
-##### Everything was verified by lab staff on Jan/10, Mon 1:30 pm
-
-##### Convert to .PDF then submit to BlackBoard
+#### Convert to .PDF then submit to BlackBoard
