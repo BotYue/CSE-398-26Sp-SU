@@ -1,4 +1,6 @@
-### Schudule:
+## Schudule:
+
+### Lab Task Topics:
 
 |  | Monday (Date & Topic) | Wednesday (Date & Topic) |
 |------|-----------------------|--------------------------|
