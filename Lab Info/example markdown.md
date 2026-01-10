@@ -15,10 +15,10 @@
 [ Note we recommend you pause to log your progress within 30 minutes, even every 15 minutes, or any time you made significant progress.]
 
 * I try to test a soil sensor with I2C conection to my Pi 5
-   [ Note: It is OK if there are minor grammar issues or typos. The content just needs to be understandable by others..]
+   <br>[ Note: It is OK if there are minor grammar issues or typos. The content just needs to be understandable by others..]
 
 * I selected "Adafruit STEMMA Soil Sensor" from the shelf. I looked up online and found its document on https://www.adafruit.com/product/4026 
-   [ Note: keep all useful website links in the log..]
+   <br>[ Note: keep all useful website links in the log..]
 
 * I checked its pinout connection on https://learn.adafruit.com/adafruit-stemma-soil-sensor-i2c-capacitive-moisture-sensor/pinouts . 
   It is:
