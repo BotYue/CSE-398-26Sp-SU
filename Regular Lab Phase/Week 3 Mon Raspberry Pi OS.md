@@ -41,7 +41,7 @@ You can install other Python IDEs such as ``VS Code`` from ``Pi-Apps`` if you pr
 ----------
 ## 3. Nano Editor in Terminal
 
-- [ ] In CLI Terminal, try to navigate and execute your previous saved Python code in Section 2.
+- [ ] In CLI Terminal, try to navigate in folders and execute your previous saved Python code in Section 2.
 
 In Raspberry Pi Terminal, it has a built-in ``nano editor``. It allows you to edit code directly in Terminal. 
 
