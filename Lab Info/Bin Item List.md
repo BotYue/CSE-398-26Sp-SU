@@ -15,7 +15,7 @@ Students are responsible for maintaining all assigned lab components in good wor
 * USB mini Microphone
 
 #### Others  
-* Logitech Brio webcam
+* Logitech Brio 101 webcam
 * Micro HDMI to HDMI Male Cable
 * Jump wires
 * Raspbeyy Pi cooler (to be installed)
