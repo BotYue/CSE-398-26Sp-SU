@@ -30,7 +30,7 @@ You can install other Python IDEs such as ``VS Code`` from ``Pi-Apps`` if you pr
 
 - [ ] **Write simple Python code to print the temperature of the SoC, and SDRAM Core Voltage**
 
-> **Note:** Terminal commands can be executed in Python using the [`subprocess`](https://docs.python.org/3/library/subprocess.html) module. Read the official document in this link to understand it.
+> **Note:** Terminal commands can be executed in Python using the [`subprocess`](https://docs.python.org/3/library/subprocess.html) module. Read the official document in this link to understand the function ``subprocess.run``.
 
 - [ ] **Save it to any folder you prefer**
 
