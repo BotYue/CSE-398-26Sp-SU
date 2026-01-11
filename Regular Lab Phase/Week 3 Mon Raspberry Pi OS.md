@@ -22,7 +22,7 @@ https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/
 ------
 ## 2. Python IDE
 
-In the Raspberry Pi OS, Python is default installed in Pi OS.
+In the Raspberry Pi OS, Python3 is default installed.
 
 Use ``Thonny`` as your default Python IDE. 
 
