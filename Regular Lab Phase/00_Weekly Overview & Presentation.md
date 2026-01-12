@@ -1,6 +1,6 @@
 ## Schudule:
 
-### Lab Task Topics:
+### Lab Topics:
 
 |  | Monday (Date & Topic) | Wednesday (Date & Topic) |
 |------|-----------------------|--------------------------|
@@ -16,7 +16,7 @@
 | Week 10 | **Mar 16**<br>MediaPipe Edge AI | **Mar 18**<br>Start Project Phase |
 
 -----
-### Student Presentation Topics:
+## Student Presentation Topics:
 
 |  | Monday (Date & Topic) | Wednesday (Date & Topic) |
 |------|-----------------------|--------------------------|
@@ -30,3 +30,13 @@
 | Week 8 | **Mar 2**<br>PyTorch Computer Vision I | **Mar 4**<br>PyTorch Computer Vision I |
 | Week 9 | **~Mar 9~**<br>~No Class~ | **~Mar 11~**<br>~No Class~ |
 | Week 10 | **Mar 16**<br>Google MediaPipe Tutorial | **Mar 18** |
+
+
+-----
+## Presentation Details:
+
+* **Git & GitHub Essentials:** Introduction to core Git concepts (commit, push, pull, merge, ...); how to use git in CLI terminal; basic usage of GitHub and ``github.dev`` web-based editor
+* **Embedded Communication Protocols**: Introduction to I2C, UART, SPI, with real hardware demonstrations. You can use Arduino + sensors to demo, no need use Raspberry Pi.
+* **ZeroMQ Tutorial**: Introduction to ZeroMQ. Introduce how to use the Python implementation ```pyzmq```. You can show a communication demo using two laptops, not need to be Raspberry Pi.
+* **Terminal-Based AI Coding Agents**: Introduction to one of the following: OpenAI Codex, Gemini CLI, or Claude Code. Show how to use it in practice. You can refer to course material of "CS146S: The Modern Software Developer
+Stanford University" https://themodernsoftware.dev/ 
