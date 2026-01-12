@@ -51,7 +51,7 @@
 Basic Requirements:
 * The presentation should be longer than 30 minutes.
 
-* The presentation should include a presentation document (e.g., PowerPoint slides or a Markdown-based presentation). The document should contain sufficient technical details so that other students can follow the material and reproduce. Presentation document should be submitted to BlackBoard Discussion by the noon on the presentation day.
+* The presentation should include a presentation material (e.g., PowerPoint slides or Markdown document). The material should contain sufficient technical details so that other students can follow the material and reproduce. Presentation material should be submitted to BlackBoard Discussion by the noon on the presentation day.
 
 * The presentation should included with a live demonstration. (typically more than 10 minutes)
 
@@ -60,6 +60,6 @@ Basic Requirements:
 | 1 | The presentation is well organized<br> and logically structured.                   |    Strongly Agree: 2; Agree: 1.5; Neutral: 1; Disagree: 0                   
 | 2 | The **presenter** shows familiarity and confidence with the material.                                | Strongly Agree: 2; Agree: 1.5; Neutral: 1; Disagree: 0    |
 | 3 | The **presenter** speaks clearly and maintains a reasonable pace.                     | Strongly Agree: 2; Agree: 1.5; Neutral: 1; Disagree: 0    |
-| 4 | The **presenter's** document and/or live demo<br> is useful for understanding the topic. | Strongly Agree: 2; Agree: 1.5; Neutral: 1; Disagree: 0    |
+| 4 | The **presenter's** material and/or live demo<br> is useful for understanding the topic. | Strongly Agree: 2; Agree: 1.5; Neutral: 1; Disagree: 0    |
 | 5 | After the presentation, I believe I can reproduce<br> some of the results.            | Strongly Agree: 2; Agree: 1.5; Neutral: 1; Disagree: 0    |
   | **Max allowed**         |          |  10 points |
