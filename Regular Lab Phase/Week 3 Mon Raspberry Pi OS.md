@@ -14,7 +14,7 @@ They are listed on the official repo of Raspberry Pi:
 
 https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/os/graphics-utilities.adoc 
 
-- [ ] **Open your CLI terminal, try all commands listed there**
+- [ ] **Open your CLI terminal, try >= 5 commands listed there**
 - [ ] **Log each command and its output using Markdown code blocks**
 
 :pushpin: Note: Since this lab, every thing you conduct need to be recorded in your Markdown. Refer to [Example Markdown Guide](../Lab%20Info/example%20markdown.md) for details.
