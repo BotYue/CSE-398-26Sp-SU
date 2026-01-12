@@ -22,14 +22,14 @@
 |------|-----------------------|--------------------------|
 | Week 1 | **Jan 12**| **~Jan 14~**<br>~No Class~ |
 | Week 2 | **~Jan 19~**<br>~No Class~| **Jan 21** |
-| Week 3 | **Jan 26** | **Jan 28**<br>Git & GitHub Essentials|
-| Week 4 | **Feb 2**<br>Embedded Communication Protocols | **Feb 4**|
-| Week 5 | **Feb 9**<br>ZeroMQ Tutorial | **Feb 11**<br>Terminal-Based AI Coding Agents |
-| Week 6 | **Feb 16**<br>Web App Development with Python Flask| **~Feb 18~** |
-| Week 7 | **Feb 23**<br>OpenAI Platform for Developers | **Feb 25**<br>Google AI Studio for Developers|
-| Week 8 | **Mar 2**<br>PyTorch Computer Vision I | **Mar 4**<br>PyTorch Computer Vision II |
+| Week 3 | **Jan 26** | **Jan 28**<br>Git & GitHub Essentials (Group 7)|
+| Week 4 | **Feb 2**<br>Embedded Communication Protocols (Group 5)| **Feb 4**|
+| Week 5 | **Feb 9**<br>ZeroMQ Tutorial (Group 2) | **Feb 11**<br>Terminal-Based AI Coding Agents (Group 3) |
+| Week 6 | **Feb 16**<br>Web App Development with Python Flask (Group 8)| **~Feb 18~** |
+| Week 7 | **Feb 23**<br>OpenAI Platform for Developers (Group 6) | **Feb 25**<br>Google AI Studio for Developers (Group 9)|
+| Week 8 | **Mar 2**<br>PyTorch Computer Vision I (Group 1)| **Mar 4**<br>PyTorch Computer Vision II (Group 10)|
 | Week 9 | **~Mar 9~**<br>~No Class~ | **~Mar 11~**<br>~No Class~ |
-| Week 10 | **Mar 16**<br>Google MediaPipe Tutorial | **Mar 18** |
+| Week 10 | **Mar 16**<br>Google MediaPipe Tutorial (Group 4)| **Mar 18** |
 
 
 -----
