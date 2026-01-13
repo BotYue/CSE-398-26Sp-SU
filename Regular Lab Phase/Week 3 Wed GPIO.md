@@ -49,11 +49,11 @@ The class constructor must accept GPIO pin numbers as arguments. For example:
   ```
 ##### -Required Methods
 
-The class must implement these 2 public methods:
+The class implements these 2 public methods:
 
 ```python
-.blink_together() #Both LEDs blink ON and OFF simultaneously
-.blink_one_by_one() #LEDs blink sequentially, one ON at a time
+my_LED_object.blink_together() #Both LEDs blink ON and OFF simultaneously
+my_LED_object.blink_one_by_one() #LEDs blink sequentially, one ON at a time
 ```
 
 
