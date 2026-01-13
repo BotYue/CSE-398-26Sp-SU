@@ -26,7 +26,7 @@ Simple examples with code are provided in the official repo of Raspberry Pi:
 
 https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/os/using-gpio.adoc
 
-Now try all 3 examples (LED control/ Read button state / Control) an LED with a button)given in that link.
+Now, try all 3 examples (LED control/ Read button state / Control) an LED with a button)given in that link.
 
 🎉 **Check Point 1**
 <br>Show lab staff all 3 examples
@@ -36,8 +36,29 @@ Now try all 3 examples (LED control/ Read button state / Control) an LED with a 
 
 ## 3. Create a Python Class
 
+Next, you will create a custom Python class, (for example, named `double_LED`). It can control 2 LEDs using ``gpiozero``.
+
+
+##### -GPIO Configuration
+
+The class constructor must accept GPIO pin numbers as arguments. For example:
+
+  ```python
+  my_LED_object = double_LED(17, 27)
+  ```
+##### -Required Methods
+
+The class must implement these 2 public methods:
+
+```python
+.blink_together() #Both LEDs blink ON and OFF simultaneously
+.blink_one_by_one() #LEDs blink sequentially, one ON at a time
+```
+
+
+
 🎉 **Check Point 2**
-<br>
+<br> Demo the result and explain the code. You may be asked to modify the code.
 
 ---
 :pushpin: Covert your Markdown to PDF and submit to BlackBoard as a group. 
