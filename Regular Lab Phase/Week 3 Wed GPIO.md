@@ -36,8 +36,9 @@ Now, try all 3 examples (LED control/ Read button state / Control) an LED with a
 
 ## 3. Create a Python Class
 
-Next, you will create a custom Python class, (for example, named `double_LED`). It can control 2 LEDs using ``gpiozero``.
+Next, you will create a custom Python Class, (for example, named `double_LED`). It can control 2 LEDs using ``gpiozero``.
 
+This Python Class should meet these requirements:
 
 ##### -GPIO Configuration
 
