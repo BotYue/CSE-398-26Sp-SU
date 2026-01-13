@@ -18,10 +18,7 @@ Or you can just Google Search "raspberry pi 5 pinout"`.
 
 
 
-
-
-
-## 1. GPIO Zero Library
+## 2. GPIO Zero Library
 
 In the Raspberry Pi OS, you can use ``GPIO Zero`` library in Python to control the GPIO pins.
 
@@ -29,15 +26,18 @@ Simple examples with code are provided in the official repo of Raspberry Pi:
 
 https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/os/using-gpio.adoc
 
+Now try all 3 examples (LED control/ Read button state / Control) an LED with a button)given in that link.
+
 🎉 **Check Point 1**
-<br>Show lab staff your output in Python IDE.
-<br>During check, you will be asked to modify the code to get other outputs among the command-line utilities in Section 1.
+<br>Show lab staff all 3 examples
 
 ----------
 
 
+## 3. Create a Python Class
+
 🎉 **Check Point 2**
-<br>Each student will show the basic operations to the lab staff.
+<br>
 
 ---
 :pushpin: Covert your Markdown to PDF and submit to BlackBoard as a group. 
