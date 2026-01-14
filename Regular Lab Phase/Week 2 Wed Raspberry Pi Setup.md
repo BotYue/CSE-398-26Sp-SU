@@ -71,8 +71,12 @@ Extra Note:
 :pushpin: Since next lab, every thing you conduct need to be recorded in your Markdown.
 
 🎉 **Check Point 2**
-<br>Show lab staff your installation.
+<br>Show lab staff your installation and Markdown.
 
+🎉 **Extra**
+<br> This section is optional. If you are interested, there are several ways to access your Raspberry Pi remotely, instead of using the lab monitor.
+<br> Method 1: SSH; Method 2: VNC screen share; Method 3: ``Raspberry Pi Connect`` with an account
+<br> Details can be found on: https://www.raspberrypi.com/documentation/computers/remote-access.html
 
 
 ---
