@@ -12,7 +12,6 @@ Students are responsible for maintaining all assigned lab components in good wor
 * 0.96-inch SSD1306 OLED mini display
 * 2-inch SPI LCD mini display
 * MPU-6050 IMU
-* BH-1750 Light Sensor
 * USB mini Microphone
 
 #### Others  
