@@ -12,7 +12,7 @@ In the CLI terminal, type `pinout` to display the GPIO pinout of your Raspberry 
 
 > **Note:** On the physical board, you will see the silkscreen label **`J8`** next to the GPIO header. This label indicates the orientation of the pinout columns shown in the `pinout` output.
 
-Or you can just Google Search "raspberry pi 5 pinout"`.
+Or you can visit https://pinout.xyz/, or just Google Search "raspberry pi 5 pinout"`.
 
 <img src="Pic/pinout.png" width="600"/>
 
