@@ -61,5 +61,6 @@ my_LED_object.blink_one_by_one() #LEDs blink sequentially, one ON at a time
 🎉 **Check Point 2**
 <br> Demo the result and explain the code. You may be asked to modify the code.
 <br> Return all LEDS/buttons/others back to the proper place.
+
 ---
 :pushpin: Covert your Markdown to PDF and submit to BlackBoard as a group. 
