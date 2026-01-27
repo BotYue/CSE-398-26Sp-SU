@@ -1,4 +1,4 @@
-# Week 3 Mon I2C
+# Week 3 Mon I²C
 
 ---------------
 #### :dizzy: **Lab Date :** Feb 2 Monday
@@ -6,13 +6,21 @@
 #### :pencil: Every group member must be present for every check point.
 -------------------
 
-## 3. I2C - Basic set-up 
+## 1. I2C - Basic set-up 
 - [ ] **Hardware set-up**
-  <br>You will play with a I2C based OLED display. 
+  <br>You will play with a I²C based OLED display. 
   <br>It is this product:
   <br>0.96 Inch OLED I2C IIC Display Module 12864 128x64 Pixel SSD1306 Mini Self-Luminous OLED Screen 
   <br>https://www.amazon.com/dp/B09T6SJBV5?th=1 
   <br> Connect it with your Pi using breadboard and jump wires.
+
+ **Pin** | **Description**                                                                                                                                            |
+| ------- | -------------------
+| **GND**             | Ground |                                                                                                     |
+| **VCC**             | 3.3 or 5 V  |
+| **SCL**             | I²C Clock |
+| **SDA**             | I²C Data |
+
 
 - [ ] **Pi OS Configuration**
   <br>You need to turn on the I2C in the Pi OS firstly.
@@ -36,7 +44,9 @@ cao@raspberrypiCao:~ $ i2cdetect -y 1
 ```
 You should see ```0x3C``` address is there.
 
-🎉 **Check Point 1**
+The value `0x3C` is the default I²C address assigned to the SSD1306 OLED IC. If this address is detected, it confirms that your OLED device is communicating with the main board via I²C.
+
+🎉 **Check Point 1**.
 
 ## 4. I2C - A Status Monitor 
 **Overall, In the design, you need to realize a Status Monitor system:**
