@@ -71,8 +71,9 @@ import busio
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_ssd1306
 
-# Setup I2C and the Display
+# Create the I2C interface
 i2c = busio.I2C(board.SCL, board.SDA)
+# Create the SSD1306 OLED class
 oled = adafruit_ssd1306.SSD1306_I2C(128, 64, i2c)
 
 # Clear the display (0 for pixel off/black, 255 for pixel on/white)
@@ -115,7 +116,7 @@ emoji_font = ImageFont.truetype(emoji_font_path, 10)  # you can adjust font size
 draw.text((0, 15), "\U0001F319", font=emoji_font, fill=255)
 
 ```
-You don't need to use the exact same emojis in the example picture.
+You don't need to use the exact same emojis in the example picture.<br> Feel free to use any fun emojis you like!
 
 - [ ] **Improve display**
 <br> Arrange your information and emojis for better visual appeal.
