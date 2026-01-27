@@ -61,21 +61,38 @@ The value `0x3C` is the default I²C address assigned to the SSD1306 OLED IC. If
 ```shell
 cao@raspberrypiCao:~ $ pip3 install adafruit-circuitpython-ssd1306 --break-system-packages
 ```
-- [ ] **Hello World Display**
-<br> Start from a simple one in Python - just display "Hello World" on your screen.
-<br> You can use these 2 packages for display.
+- [ ] **Simple Display Example**
+<br> Start from a simple one in Python - just display "Hey There" on your screen.
+<br> Feel free to use AI tools to help you understand the code.
 
-```python
-from PIL import Image, ImageDraw, ImageFont
-import adafruit_ssd1306
-```
-
-As well as these two packages for I2C setup:
 ```python
 import board
 import busio
+from PIL import Image, ImageDraw, ImageFont
+import adafruit_ssd1306
+
+# Setup I2C and the Display
+i2c = busio.I2C(board.SCL, board.SDA)
+oled = adafruit_ssd1306.SSD1306_I2C(128, 64, i2c)
+
+# Clear the display (0 for pixel off/black, 255 for pixel on/white)
+oled.fill(0)
+oled.show()
+
+# Create a blank image for drawing (mode '1' for 1-bit color/black & white)
+image = Image.new("1", (oled.width, oled.height))
+draw = ImageDraw.Draw(image)
+
+# Draw the text
+# syntax: draw.text((x, y), text, font=font, fill=255)
+font = ImageFont.load_default()
+draw.text((40, 0), "Hey", font=font, fill=255)
+draw.text((80, 30), "There", font=font, fill=255)
+
+# Display the image
+oled.image(image)
+oled.show()
 ```
-You are free to use extra packages in Python.
 
 - [ ] **Display Real-Time Status**
 <br> Try to get the real-time status:
