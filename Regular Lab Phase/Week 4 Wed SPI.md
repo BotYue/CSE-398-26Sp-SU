@@ -70,3 +70,4 @@ wget https://files.waveshare.com/upload/8/8d/LCD_Module_RPI_code.zip
 
 🎉 **Check Point 2**
 <br>Each student will be asked regarding to the implementation and personal contribution     
+<br>Carefully disconnect the LCD and properly organize the items before you leave.
