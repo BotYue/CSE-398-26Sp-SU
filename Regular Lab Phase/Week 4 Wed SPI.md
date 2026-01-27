@@ -41,8 +41,9 @@ wget https://files.waveshare.com/upload/8/8d/LCD_Module_RPI_code.zip
      
  - [ ] Extract the files.
  - [ ] Navigate to the folder ```LCD_Module_RPI_code/RaspberryPi/python/example``` and Run "2inch4_LCD_test.py"
+ - [ ] You will now see an image!
+ - [ ] Try to modify the code and use AI tools to help you understand what each part does.
 
-
-🎉 **Check Point 2**
-<br>Each student will show the basic operations to the lab staff.
+🎉 **Check Point 1**
+<br>Each student will be asked regarding to the code
 
