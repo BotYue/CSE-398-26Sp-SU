@@ -68,8 +68,8 @@ cao@raspberrypiCao:~ $ pip3 install adafruit-circuitpython-ssd1306 --break-syste
 ```python
 import board
 import busio
-from PIL import Image, ImageDraw, ImageFont
 import adafruit_ssd1306
+from PIL import Image, ImageDraw, ImageFont
 
 # Create the I2C interface
 i2c = busio.I2C(board.SCL, board.SDA)
@@ -124,3 +124,5 @@ You don't need to use the exact same emojis in the example picture.<br> Feel fre
 <br> No need  to strictly follow the placement shown in the example picture.
 
 🎉 **Check Point 2** Every group member will be asked to explain a piece of code.
+
+Carefully disconnect the OLED and properly organize the items before you leave.
