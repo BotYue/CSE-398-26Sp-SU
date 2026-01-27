@@ -47,7 +47,7 @@ wget https://files.waveshare.com/upload/8/8d/LCD_Module_RPI_code.zip
 🎉 **Check Point 1**
 <br>Each student will be asked regarding to the code
 
-
+---
 ## 3. SPI - A News Displayer
 **Overall, in this part, you will realize a small news displayer system:**  
 
@@ -57,6 +57,7 @@ wget https://files.waveshare.com/upload/8/8d/LCD_Module_RPI_code.zip
 **Secondary Level: Manual screenshots (50% credit)**
 <br>You take manual screenshots of recent SU News, save them as local image files, and rotately display multiple news items on the LCD.
 
+---
  - [ ] The webpage is https://news.syr.edu/news/
  - [ ] Suggestion for accelerating your development:
  <br> You can split the work within your group:
