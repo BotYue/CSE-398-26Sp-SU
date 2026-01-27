@@ -63,7 +63,7 @@ cao@raspberrypiCao:~ $ pip3 install adafruit-circuitpython-ssd1306 --break-syste
 ```
 - [ ] **Simple Display Example**
 <br> Start from a simple one in Python - just display "Hey There" on your screen.
-<br> Feel free to use AI tools to help you understand the code.
+<br> More detailed explanation can be found at https://learn.adafruit.com/monochrome-oled-breakouts/python-usage-2
 
 ```python
 import board
