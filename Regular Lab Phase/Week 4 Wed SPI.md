@@ -51,11 +51,11 @@ wget https://files.waveshare.com/upload/8/8d/LCD_Module_RPI_code.zip
 ## 3. SPI - A News Displayer
 **Overall, in this part, you will realize a small news displayer system:**  
 
-**Best: Auto fetch (100% credit)**
-<br>Your program automatically parses the latest Syracuse University News content from the webpage (headline + a related image), formats it into the screen, and rotately display multiple news items on the LCD.
+**Best Level: Auto fetch (100% credit)**
+<br>It automatically parses the latest Syracuse University News content from the webpage (headline + a related image), formats it into the screen, and rotately display multiple news items on the LCD.
 
-**Secondary: Manual screenshots (50% credit)**
-<br>Take manual screenshots of recent SU News, save them as local image files, and rotately display multiple news items on the LCD.
+**Secondary Level: Manual screenshots (50% credit)**
+<br>You take manual screenshots of recent SU News, save them as local image files, and rotately display multiple news items on the LCD.
 
  - [ ] The webpage is https://news.syr.edu/news/
  - [ ] Suggestion for accelerating your development:
