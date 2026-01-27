@@ -1,4 +1,4 @@
-# Week 3 Wed SPI
+# Week 4 Wed SPI
 
 ---------------
 #### :dizzy: **Lab Date :** Feb 4 Wednesday
@@ -62,7 +62,7 @@ wget https://files.waveshare.com/upload/8/8d/LCD_Module_RPI_code.zip
  <br> You can split the work within your group:
 * **Parsing team (Laptop):** Develop and test the webpage parsing code on a personal laptop.
 * **Display team (Raspberry Pi):** In parallel, test the LCD display code on the Raspberry Pi
-
+ - [ ] AI tools are allowed in development.
  - [ ] Here is an example I did with manual screenshots:
        
 <img src="Pic/lcd_news.jpg" width="600"/>
