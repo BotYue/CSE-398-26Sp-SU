@@ -47,3 +47,25 @@ wget https://files.waveshare.com/upload/8/8d/LCD_Module_RPI_code.zip
 🎉 **Check Point 1**
 <br>Each student will be asked regarding to the code
 
+
+## 3. SPI - A News Displayer
+**Overall, in this part, you will realize a small news displayer system:**  
+
+**Best: Auto fetch (100% credit)**
+<br>Your program automatically parses the latest Syracuse University News content from the webpage (headline + a related image), formats it into the screen, and rotately display multiple news items on the LCD.
+
+**Secondary: Manual screenshots (50% credit)**
+<br>Take manual screenshots of recent SU News, save them as local image files, and rotately display multiple news items on the LCD.
+
+ - [ ] The webpage is https://news.syr.edu/news/
+ - [ ] Suggestion for accelerating your development:
+ <br> You can split the work within your group:
+* **Parsing team (Laptop):** Develop and test the webpage parsing code on a personal laptop.
+* **Display team (Raspberry Pi):** In parallel, test the LCD display code on the Raspberry Pi
+
+ - [ ] Here is an example I did with manual screenshots:
+       
+<img src="Pic/lcd_news.jpg" width="600"/>
+
+🎉 **Check Point 2**
+<br>Each student will be asked regarding to the implementation and personal contribution     
