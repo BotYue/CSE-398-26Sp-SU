@@ -48,7 +48,7 @@ The value `0x3C` is the default I²C address assigned to the SSD1306 OLED IC. If
 
 🎉 **Check Point 1**.
 
-## 4. I2C - A Status Monitor 
+## 2. I2C - A Status Monitor 
 **Overall, In the design, you need to realize a Status Monitor system:**
 <br> This OLED displays the temprature of your PI and real time.  
 
@@ -56,7 +56,8 @@ The value `0x3C` is the default I²C address assigned to the SSD1306 OLED IC. If
 
 
 - [ ] **adafruit_ssd1306 package**
-<br>To code that I2C-based OLED in Python, you need to firstly install adafruit_ssd1306
+<br>To code that I2C-based OLED in Python, you need to firstly install adafruit_ssd1306. This enables the SSD1306 display driver via the Adafruit CircuitPython framework.
+
 ```shell
 cao@raspberrypiCao:~ $ pip3 install adafruit-circuitpython-ssd1306 --break-system-packages
 ```
