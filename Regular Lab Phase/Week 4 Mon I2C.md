@@ -12,12 +12,12 @@
   <br>It is this product:
   <br>0.96 Inch OLED I2C IIC Display Module 12864 128x64 Pixel SSD1306 Mini Self-Luminous OLED Screen 
   <br>https://www.amazon.com/dp/B09T6SJBV5?th=1 
-  <br> Connect it with your Pi using breadboard and jump wires.
+  <br> Connect it with your Pi using breadboard (as an intermediate connection) and jump wires.
 
- **Pin** | **Description**                                                                                                                                            |
-| ------- | -------------------
-| **GND**             | Ground |                                                                                                     |
-| **VCC**             | 3.3 or 5 V  |
+| **Pin** | **Description**   |                                                                                                                     
+| ------- | -------------------|
+| **GND**             | Ground |  
+| **VCC**             | 3.3 V or 5 V  |
 | **SCL**             | I²C Clock |
 | **SDA**             | I²C Data |
 
@@ -28,7 +28,7 @@
     <img src="Pic/I2CturnOn.png" width="800"/>
   
 - [ ] **I2C Detect**
-<br>```i2cdetect``` is a tool defaultly install in Pi OS.
+<br>```i2cdetect``` is a tool avaiable in Pi OS.
 <br>It can quick check your I2C communication in the Terminal. 
 
 ```shell
