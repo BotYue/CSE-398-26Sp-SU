@@ -12,7 +12,7 @@
 ## 1. HTTP server — Static file host
 - [ ] **Get your laptop and Pi both connected to the iot_lab WiFi**
 
-In your laptop and Pi, use Terminal commands to get IP addresses of both devices.
+In Pi, use Terminal commands to get IP addresses.
 
 - [ ] **A folder to host static files**
 
