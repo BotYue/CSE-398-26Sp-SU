@@ -40,7 +40,8 @@ wget https://files.waveshare.com/upload/8/8d/LCD_Module_RPI_code.zip
 ```
      
  - [ ] Extract the files.
- - [ ] Navigate to the folder ```LCD_Module_RPI_code/RaspberryPi/python/example``` and Run "2inch4_LCD_test.py"
+ - [ ] Navigate to the folder ```LCD_Module_RPI_code/RaspberryPi/python/example``` and Run "2inch_LCD_test.py"
+ - [ ] There maybe a minor bug in the given code, change `Image.open('../pic/LCD_2inch4_1.jpg')` to `Image.open('../pic/LCD_2inch.jpg')`
  - [ ] You will now see an image!
  - [ ] Try to modify the code and use AI tools to help you understand what each part does.
 
