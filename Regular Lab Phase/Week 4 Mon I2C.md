@@ -123,6 +123,6 @@ You don't need to use the exact same emojis in the example picture.<br> Feel fre
 <br> Feel free to adjust the layout as you want.
 <br> No need  to strictly follow the placement shown in the example picture.
 
-🎉 **Check Point 2** Every group member will be asked to explain a piece of code.
+🎉 **Check Point 2** Every group member will be asked to explain a piece of code. Also show the I2C inspection via Analog Discovery.
 
 Carefully disconnect the OLED and properly organize the items before you leave.
