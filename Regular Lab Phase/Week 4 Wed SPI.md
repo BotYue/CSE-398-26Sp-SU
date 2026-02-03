@@ -46,7 +46,7 @@ wget https://files.waveshare.com/upload/8/8d/LCD_Module_RPI_code.zip
  - [ ] Try to modify the code and use AI tools to help you understand what each part does.
 
 🎉 **Check Point 1**
-<br>Each student will be asked regarding to the code
+<br>Show the completion. Also show the SPI inspection via Analog Discovery (Protocol).
 
 ---
 ## 3. SPI - A News Displayer
