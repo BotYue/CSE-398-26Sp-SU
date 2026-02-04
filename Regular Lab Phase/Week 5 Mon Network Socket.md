@@ -90,7 +90,8 @@ print(zmq.__version__)
   <br> 1 Group's Pi act as Subscriber. 
   <br> Both Group's laptops act as Subscribers. 
   - [ ] Publisher act as a broadcasting station. Connect Pi with **BH1750 Light Sensor**:
-  <br> https://learn.adafruit.com/adafruit-bh1750-ambient-light-sensor/overview .
+  <br> https://learn.adafruit.com/adafruit-bh1750-ambient-light-sensor/overview (Intro)
+  <br> https://learn.adafruit.com/adafruit-bh1750-ambient-light-sensor/python-circuitpython (Pi Wiring & Python Code)
   <br> The Publisher broadcasts the "Light Info: " every 10 seconds.
   - [ ] Subscribers receive message.  Pi Subscriber display the info on their I2C OLED screen.
 
