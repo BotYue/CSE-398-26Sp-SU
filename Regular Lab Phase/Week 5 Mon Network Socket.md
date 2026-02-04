@@ -95,4 +95,4 @@ print(zmq.__version__)
   - [ ] Subscribers receive message.  Pi Subscriber display the info on their I2C OLED screen.
 
 🎉 **Check Point 2**
-
+<br>Both groups demo together and explain the set-up.
