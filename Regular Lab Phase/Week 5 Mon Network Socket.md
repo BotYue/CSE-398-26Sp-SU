@@ -49,7 +49,15 @@ In your laptop, also try to access your neighbro's server via browswer.
 ----------
 
 ## 2. `socket` — Low-level networking interface
-- [ ] **Get your laptop and Pi both connected to the iot_lab WiFi**
+
+- [ ] ```socket```  is already in the Pi's Python. It is a low-level tool and can realize simple client-server communication.
+- [ ] Your Pi shall act as a server. Your laptop shall act as a client.
+- [ ] Establish a simple server-client communication via Python socket. It can send simple string data.
+- [ ] You should refer to https://docs.python.org/3/library/socket.html#example
+
+
+🎉 **Check Point 1**
+<br>Show the communication of `HTTP server` & `socket`.
 
 ---------
 
