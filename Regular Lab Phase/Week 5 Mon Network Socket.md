@@ -59,6 +59,7 @@ In your laptop, also try to access your neighbro's server via browswer.
 
 🎉 **Check Point 1**
 <br>Show the communication of `HTTP server` & `socket`.
+<br>Students will be asked regarding to commands/functions, fail to answer receive 50% credit.
 
 ---------
 
@@ -97,3 +98,4 @@ print(zmq.__version__)
 
 🎉 **Check Point 2**
 <br>Both groups demo together and explain the set-up.
+<br>Student who fails to explain receive 50% credit.
