@@ -65,6 +65,34 @@ In your laptop, also try to access your neighbro's server via browswer.
 
 ## 3. `ZeroMQ` — High-level networking interface 
 
+```ZeroMQ```  is a high-level networking interface. It can easily configure many-to-many communication. It has multiple communication modes: PUB/SUB, REQ/REP, PUSH/PULL, ...
+
+- [ ] Pi OS doesn't have ```ZeroMQ```. You need to install this package:
+
+```shell
+cao@raspberrypiCao:~ $ sudo apt install -y libzmq3-dev
+```
+
+```shell
+cao@raspberrypiCao:~ $ pip3 install pyzmq --break-system-packages
+```
+
+Then go to your Python, check with a simple script
+```python
+import zmq
+print(zmq.__version__)
+```
+- [ ] **Design a broadcasting system based on following requirements**
+  - [ ] The only networking interface package used is ```import zmq``` 
+  - [ ] Use the PUB/SUB (Publisher/Subscriber) communication in ZeroMQ
+  - [ ] Make arrangement with neighbor group. 
+  <br> 1 Groups's Pi act as Publisher, 
+  <br> 1 Group's Pi act as Subscriber. 
+  <br> Both Group's laptops act as Subscribers. 
+  - [ ] Publisher act as a broadcasting station. Connect Pi with **BH1750 Light Sensor**:
+  <br> https://learn.adafruit.com/adafruit-bh1750-ambient-light-sensor/overview .
+  <br> The Publisher broadcasts the "Light Info: " every 10 seconds.
+  - [ ] Subscribers receive message.  Pi Subscriber display the info on their I2C OLED screen.
+
 🎉 **Check Point 2**
-<br>Each student will show the basic operations to the lab staff.
 
