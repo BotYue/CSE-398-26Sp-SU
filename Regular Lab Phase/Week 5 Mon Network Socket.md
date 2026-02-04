@@ -55,6 +55,7 @@ In your laptop, also try to access your neighbro's server via browswer.
 - [ ] Establish a simple server-client communication via Python socket. It can send simple string data.
 - [ ] You should refer to https://docs.python.org/3/library/socket.html#example
 
+---------
 
 🎉 **Check Point 1**
 <br>Show the communication of `HTTP server` & `socket`.
