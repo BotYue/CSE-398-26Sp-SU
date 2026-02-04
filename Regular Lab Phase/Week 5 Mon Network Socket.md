@@ -9,7 +9,7 @@
 > [!NOTE]  
 > Today’s lab requires your group to **frequently collaborate with another group** (the neighbor group seated next to you).
 
-## 1. HTTP server — Static file host
+## 1. `HTTP server` — Static file host
 - [ ] **Get your laptop and Pi both connected to the iot_lab WiFi**
 
 In Pi, use Terminal commands to get IP addresses.
@@ -48,6 +48,13 @@ In your laptop, also try to access your neighbro's server via browswer.
 
 ----------
 
+## 2. `socket` — Low-level networking interface
+- [ ] **Get your laptop and Pi both connected to the iot_lab WiFi**
+
+---------
+
+
+## 3. `ZeroMQ` — High-level networking interface 
 
 🎉 **Check Point 2**
 <br>Each student will show the basic operations to the lab staff.
