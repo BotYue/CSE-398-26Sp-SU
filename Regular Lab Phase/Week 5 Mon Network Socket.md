@@ -86,8 +86,8 @@ print(zmq.__version__)
   - [ ] The only networking interface package used is ```import zmq``` 
   - [ ] Use the PUB/SUB (Publisher/Subscriber) communication in ZeroMQ
   - [ ] Make arrangement with neighbor group. 
-  <br> 1 Groups's Pi act as Publisher, 
-  <br> 1 Group's Pi act as Subscriber. 
+  <br> One Groups's Pi act as Publisher, 
+  <br> The other Group's Pi act as Subscriber. 
   <br> Both Group's laptops act as Subscribers. 
   - [ ] Publisher act as a broadcasting station. Connect Pi with **BH1750 Light Sensor**:
   <br> https://learn.adafruit.com/adafruit-bh1750-ambient-light-sensor/overview (Intro)
