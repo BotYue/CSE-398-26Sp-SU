@@ -82,7 +82,7 @@ while True:
 <br>Students will be asked regarding to the implementation, fail to answer receive 50% credit.
 
 
-## 2.  **Deisgn an Earthquake Alarm System** 
+## 2.  **Deisgn a Vibration Alarm System** 
 Deisgn using such way "Sensor → Arduino → Raspberry Pi"
   - [ ] The Raspberry Pi program operates in **two modes** and print to the OLED or LCD screen of Raspberry Pi:
     - **Normal Mode:** no strong vibration is detected; the Raspberry Pi continuously prints the current time and system status (such as temperature).
