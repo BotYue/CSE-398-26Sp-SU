@@ -30,13 +30,50 @@ In this task, we use use an IMU as a sensor, and set a communication path: **Sen
 The IMU we purchased is: 
 Pre-Soldered SHILLEHTEK MPU6050,<br>
 https://www.amazon.com/Pre-Soldered-Accelerometer-Raspberry-Compatible-Arduino/dp/B0BMY15TC4 
-<br>The usage of this IMU is compatible as the one on  the Adafruit website:
+<br>The usage of this IMU can be found on the Adafruit website:
 <br>https://learn.adafruit.com/mpu6050-6-dof-accelerometer-and-gyro/overview 
 <br>https://learn.adafruit.com/mpu6050-6-dof-accelerometer-and-gyro/python-and-circuitpython
 
+- [ ] **Code the IMU**
+
+In your Arduino IDE, code the IMU, print the sensor readings to the Serial Monitor.
+<br>There should be 6 data: 3 Accelerometer data, 3 Accelerometer data
+<br>Move your IMU around, see if the sensor readings make sense.
+
+- [ ] **Read Arduino data in Pi**
+
+Make sure your IMU code is successfully compiled and uploaded to the Arduino.
+  <br>Disconnect the USB cable from your computer, and then reconnect USB from the Arduino to the Raspberry Pi.
+  <br>The Arduino should continue running the previously uploaded IMU code.
+  <br>On the Raspberry Pi, identify the serial port used by the Arduino (e.g., `/dev/ttyACM0`).
+  
+   ```shell
+  ~ $ ls /dev/ttyACM*
+  ```
+
+  <br>Verify that IMU data is being received on the Raspberry Pi using the `serial` library.
+
+  ```python
+import serial
+
+PORT = '/dev/ttyACM0'
+BAUD_RATE = 115200
+
+ser = serial.Serial(PORT, BAUD_RATE, timeout=1)
+
+while True:
+    line = ser.readline().decode(errors='ignore').strip()
+    if line:
+        print(line)
+```
+
+- [ ] **Deisng an Earthquake Alarm System** using such way "Sensor → Arduino → Raspberry Pi"
+  - [ ] The Raspberry Pi program operates in **two modes**:
+    - **Normal Mode:** no strong vibration is detected; the Raspberry Pi continuously prints the current time and system status (such as temperature).
+    - **Alarm Mode:** strong vibration is detected; normal status printing is interrupted, and the Raspberry Pi prints alarm messages and detailed IMU data (accelerometer and gyroscope). When vibration stops, the program returns to Normal Mode.
+
 🎉 **Check Point 1**
-<br>Show the communication of `HTTP server` & `socket`.
-<br>Students will be asked regarding to commands/functions, fail to answer receive 50% credit.
+<br>Students will be asked regarding to the implementation and contribution, fail to answer receive 50% credit.
 
 ---------
 
