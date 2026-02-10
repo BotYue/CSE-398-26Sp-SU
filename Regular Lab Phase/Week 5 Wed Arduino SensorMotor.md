@@ -95,7 +95,7 @@ Deisgn using such way "Sensor → Arduino → Raspberry Pi"
 
 ---------
 > [!NOTE]  
-> You should include lab procedures, all Arduino code, all Rasp Pi Python code in your Markdown
+> You should include lab procedures, installation all Arduino code, all Rasp Pi Python code, all Rasp Pi terminal command & output in your MarkDown
 > 
 > If you don't include hardware connection photos. You should clearly describe the pin-to-pin connections in text.
 >
