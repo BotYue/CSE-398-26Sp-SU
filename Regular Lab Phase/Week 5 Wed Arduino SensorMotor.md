@@ -72,21 +72,21 @@ while True:
 
 ## 2.  **Deisgn an Earthquake Alarm System** 
 Deisgn using such way "Sensor → Arduino → Raspberry Pi"
-  - [ ] The Raspberry Pi program operates in **two modes**:
+  - [ ] The Raspberry Pi program operates in **two modes** and print to the OLED or LCD screen of Raspberry Pi:
     - **Normal Mode:** no strong vibration is detected; the Raspberry Pi continuously prints the current time and system status (such as temperature).
     - **Alarm Mode:** strong vibration is detected; normal status printing is interrupted, and the Raspberry Pi prints alarm messages and detailed IMU data (accelerometer and gyroscope). When vibration stops, the program returns to Normal Mode.
+    - The screen is connected directly to Raspberry Pi GPIO; The IMU is connected via Arduino then to Raspberry Pi.
+    - "Strong vibration": feel free to choose accelerometer/gyroscope thresholds that make sense based on your observations.
 
 🎉 **Check Point 2**
 <br>Students will be asked regarding to the implementation and contribution, fail to answer receive 50% credit.
 
 ---------
+> [!NOTE]  
+> You should include lab procedures, all Arduino code, all Rasp Pi Python code in your Markdown
+> 
+> If you don't include hardware connection photos. You should clearly describe the pin-to-pin connections in text.
 
+> [!NOTE]  
+> **Motor Integration** will be introduced next week, together with web app design.
 
-## 3. Motor Integration
-
-
-
-- [ ] 
-🎉 **Check Point 2**
-<br>Both groups demo together and explain the set-up.
-<br>Student who fails to explain receive 50% credit.
