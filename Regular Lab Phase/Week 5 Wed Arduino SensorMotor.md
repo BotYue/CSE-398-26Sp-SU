@@ -66,13 +66,17 @@ while True:
     if line:
         print(line)
 ```
+🎉 **Check Point 1**
+<br>Students will be asked regarding to the implementation, fail to answer receive 50% credit.
 
-- [ ] **Deisng an Earthquake Alarm System** using such way "Sensor → Arduino → Raspberry Pi"
+
+## 2.  **Deisgn an Earthquake Alarm System** 
+Deisgn using such way "Sensor → Arduino → Raspberry Pi"
   - [ ] The Raspberry Pi program operates in **two modes**:
     - **Normal Mode:** no strong vibration is detected; the Raspberry Pi continuously prints the current time and system status (such as temperature).
     - **Alarm Mode:** strong vibration is detected; normal status printing is interrupted, and the Raspberry Pi prints alarm messages and detailed IMU data (accelerometer and gyroscope). When vibration stops, the program returns to Normal Mode.
 
-🎉 **Check Point 1**
+🎉 **Check Point 2**
 <br>Students will be asked regarding to the implementation and contribution, fail to answer receive 50% credit.
 
 ---------
