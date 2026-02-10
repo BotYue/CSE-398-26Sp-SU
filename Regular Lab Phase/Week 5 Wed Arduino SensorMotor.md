@@ -46,12 +46,15 @@ Make sure your IMU code is successfully compiled and uploaded to the Arduino.
   <br>Disconnect the USB cable from your computer, and then reconnect USB from the Arduino to the Raspberry Pi.
   <br>The Arduino should continue running the previously uploaded IMU code.
   <br>On the Raspberry Pi, identify the serial port used by the Arduino (e.g., `/dev/ttyACM0`).
-  
+
+
    ```shell
   ~ $ ls /dev/ttyACM*
   ```
 
   <br>Verify that IMU data is being received on the Raspberry Pi using the `serial` library.
+
+https://pyserial.readthedocs.io/en/latest/shortintro.html 
 
   ```python
 import serial
