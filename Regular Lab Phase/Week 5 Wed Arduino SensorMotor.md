@@ -98,6 +98,8 @@ Deisgn using such way "Sensor → Arduino → Raspberry Pi"
 > You should include lab procedures, all Arduino code, all Rasp Pi Python code in your Markdown
 > 
 > If you don't include hardware connection photos. You should clearly describe the pin-to-pin connections in text.
+>
+> You may inquiry the TA before you submit before the due.
 
 > [!NOTE]  
 > **Motor Integration** will be introduced next week, together with web app design.
