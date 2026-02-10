@@ -40,11 +40,20 @@ In your Arduino IDE, code the IMU, print the sensor readings to the Serial Monit
 <br>There should be 6 data: 3 Accelerometer data, 3 Accelerometer data
 <br>Move your IMU around, see if the sensor readings make sense.
 
+| Connection when you code the IMU in Arduino IDE | 
+|---------------------|
+| <img src="Pic/arduino_set1.png" width="400"> |
+
 - [ ] **Read Arduino data in Pi**
 
 Make sure your IMU code is successfully compiled and uploaded to the Arduino.
   <br>Disconnect the USB cable from your computer, and then reconnect USB from the Arduino to the Raspberry Pi.
   <br>The Arduino should continue running the previously uploaded IMU code.
+
+| Connection when you read Arduino data in Pi | 
+|---------------------|
+| <img src="Pic/arduino_set2.png" width="400"> 
+
   <br>On the Raspberry Pi, identify the serial port used by the Arduino (e.g., `/dev/ttyACM0`).
 
 
