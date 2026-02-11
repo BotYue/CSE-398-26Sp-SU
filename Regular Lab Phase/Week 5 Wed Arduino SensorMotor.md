@@ -9,9 +9,7 @@
 
 ### **Introduction**
 
-In this lab, we will integrate the sensors and motors with the Pi 5. While sensors and motors can be directly connected to the Pi 5, the better way is to add an Arduino as an intermediate device.
-
-Using the Arduino as an intermediate has such advantages:
+In this lab, we will integrate the sensors and motors with the Pi 5. While sensors and motors can be directly connected to the Pi 5, the better way is to add an Arduino as an intermediate device:
 
 1. **Better Task Allocation:** The Arduino will handle simple looping tasks. This keeps the Raspberry Pi code simpler and focus on other tasks.
 2. **Better Timing:** The Arduino has better timing mechanism than the Raspberry Pi, such as the `millis()` function.
@@ -32,7 +30,7 @@ Pre-Soldered SHILLEHTEK MPU6050,<br>
 https://www.amazon.com/Pre-Soldered-Accelerometer-Raspberry-Compatible-Arduino/dp/B0BMY15TC4 
 <br>The usage of this IMU can be found on the Adafruit website:
 <br>https://learn.adafruit.com/mpu6050-6-dof-accelerometer-and-gyro/overview 
-<br>https://learn.adafruit.com/mpu6050-6-dof-accelerometer-and-gyro/python-and-circuitpython
+<br>https://learn.adafruit.com/mpu6050-6-dof-accelerometer-and-gyro/arduino
 
 - [ ] **Code the IMU**
 
