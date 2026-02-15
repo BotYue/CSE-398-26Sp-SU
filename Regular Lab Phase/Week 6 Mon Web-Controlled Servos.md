@@ -46,6 +46,9 @@ Connect Arduino to 2 motors.
 
 Code the Arduino. Such that you can turn 2 motors at different angles.
 
+You should use the servo library of Arduino
+<br> https://docs.arduino.cc/libraries/servo/
+
 🎉 **Check Point 1**
 
 ## 2. Web-Controlled Servos
