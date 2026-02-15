@@ -8,6 +8,12 @@
 
 
 ## 1. Basic Setup: Servo → Arduino
+
+In this task, you will do such basic set-up
+
+
+$$\mathrm{Arduino  →  Servo Motor}$$
+
 - [ ] **Motor set-up**
 
   The servo motor we use is Smraza 9G Micro Servo Motor 
@@ -44,8 +50,24 @@ Code the Arduino. Such that you can turn 2 motors at different angles.
 
 ## 2. Web-Controlled Servos
 
-In this task, you will design a web-based control interface that allows a user to command servo motors through a browser. The control pipeline follows this structure:
+In this task, you will design a web-based control interface that allows a user to command two servo motors through a browser. The control pipeline follows this structure:
 
-```
-Web Browser (Raspberry Pi)  →  Flask Web App (Raspberry Pi)  →  Arduino  →  Servo Motor
+
+$$\mathrm{Web Browser (Raspberry Pi)  →  Flask Web App (Raspberry Pi)  →  Arduino  →  Servo Motor}$$
+
+
+* [ ] Suggestion for accelerating your development: <br> You are encouraged to **split the work into two phases**:
+
+---
+
+#### Phase 1 — Software-Only Test (No Arduino)
+
+In this phase, you develop and test the Flask web application without any hardware connected. User actions in the browser send commands to the Flask server, and **two servo angle values** are printed to the terminal instead of being sent to an Arduino.
+
+**Expected Terminal output example:**
+
+```shell
+[Send to Arduino] 90, 135
+[Send to Arduino] 90, 115
+[Send to Arduino] 60, 115
 ```
