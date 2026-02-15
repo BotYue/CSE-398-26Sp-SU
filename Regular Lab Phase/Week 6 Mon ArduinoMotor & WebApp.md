@@ -7,10 +7,7 @@
 -------------------
 
 
-## 1. Arduino Motor
-
-
-## 3. Arduino Servo Motor Basic 
+## 1. Basic Setup: Servo → Arduino
 - [ ] **Motor set-up**
 
   The servo motor we use is Smraza 9G Micro Servo Motor 
@@ -26,7 +23,7 @@
 - [ ] **Power Supply set-up**
 
 > [!CAUTION]
-> Never use a microcontroller's Pin (Arduino/Pi/...) to directly power motors. <br> You need to use an external Power Supply.<br>
+> Never use a board's Pin (Arduino/Pi/...) to directly power motors. <br> You need to use an external Power Supply.<br>
 > Also make sure Common Ground between the external Power Supply and board.
 
   <img src="Pic/power up.jpg" width="600"/>
@@ -37,14 +34,18 @@
 
   <img src="Pic/motor power.png" width="800"/>
 
-- [ ] **Run the Motor**
+- [ ] **Servo → Arduino**
 
 Connect Arduino to 2 motors.
 
 Code the Arduino. Such that you can turn 2 motors at different angles.
 
-🎉 **Check Point 2**
+🎉 **Check Point 1**
 
+## 2. Web-Controlled Servos
 
+In this task, you will design a web-based control interface that allows a user to command servo motors through a browser. The control pipeline follows this structure:
 
----
+```
+Web Browser (Raspberry Pi)  →  Flask Web App (Raspberry Pi)  →  Arduino  →  Servo Motor
+```
