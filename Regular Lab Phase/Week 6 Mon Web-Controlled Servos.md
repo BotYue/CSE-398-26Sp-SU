@@ -1,4 +1,4 @@
-# Week 6 Mon: Arduino Motor & WebApp
+# Week 6 Mon: Web-Controlled Servos
 
 ---------------
 #### :dizzy: **Lab Date :** Feb 16 
@@ -7,7 +7,7 @@
 -------------------
 
 
-## 1. Basic Setup: Servo → Arduino
+## 1. Basic Setup: Servo and Arduino
 
 In this task, you will do such basic set-up
 
@@ -49,18 +49,25 @@ Code the Arduino. Such that you can turn 2 motors at different angles.
 🎉 **Check Point 1**
 
 ## 2. Web-Controlled Servos
+> [!CAUTION]
+> Never connect motor wires directly to the Raspberry Pi, even through a breadboard.
+>
+> You can use two separate breadboards for the Raspberry Pi and the Arduino.
 
-In this task, you will design a web-based control interface that allows a user to command two servo motors through a browser. The control pipeline follows this structure:
+- [ ] In this task, you will design a web-based control interface that allows a user to command two servo motors through a browser. The pipeline is:
 
 
 $$\mathrm{Web Browser (Raspberry Pi)  →  Flask Web App (Raspberry Pi)  →  Arduino  →  Servo Motor}$$
 
+- [ ] The web user interface should be clear and intuitive for end users, using appropriate interface elements such as sliders or similar controls.
 
-* [ ] Suggestion for accelerating your development: <br> You are encouraged to **split the work into two phases**:
+- [ ] AI tools are allowed in development.
 
 ---
 
-#### Phase 1 — Software-Only Test (No Arduino)
+Suggestion for accelerating your development: **split the work into two phases**:
+
+#### Phase 1 — Raspberry-Pi-Only Test (No Arduino, No Servo)
 
 In this phase, you develop and test the Flask web application without any hardware connected. User actions in the browser send commands to the Flask server, and **two servo angle values** are printed to the terminal instead of being sent to an Arduino.
 
@@ -71,3 +78,17 @@ In this phase, you develop and test the Flask web application without any hardwa
 [Send to Arduino] 90, 115
 [Send to Arduino] 60, 115
 ```
+
+#### Phase 2 — Hardware-Integrated Test (with Arduino & Servo)
+
+In this phase, the Flask web application sends two servo angle commands to the Arduino through serial communication (`import serial` in Python). The Raspberry Pi and Arduino are connected via USB. The Arduino receives the commands and drives each servo motor to the corresponding angle.
+
+
+---
+
+🎉 **Check Point 2**
+
+Each student must present **individually for 30 seconds** to describe personal contributions during this lab, accompanied by questions from the lab staff.<br>
+The other two students in the same group must not assist.<br>
+Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
+
