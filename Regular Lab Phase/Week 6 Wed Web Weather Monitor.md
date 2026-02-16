@@ -18,17 +18,18 @@
 
 **Wind level definition:**
 
-$$\text{wind level} = |a_x| + |a_y| + |a_z|$$
+$$\text{wind level} =  \text{factor} \times (|a_x| + |a_y| + |a_z|)$$
 
-*(Use accelerometer readings only.)*
+*(Use accelerometer readings only. "factor" is a scaling constant that you can define.)*
 
-- [ ] You are free to configure the wiring for these sensors either directly on the Raspberry Pi or through an Arduino. You may use at most one Arduino board.
+- [ ] You are free to configure the wiring of these sensors<br>Either directly on the Raspberry Pi or through an Arduino. <br>You may use at most one Arduino board.
 
-- [ ] This time, instead of taking photos of your connections, you should draw an abstract hardware connection diagram. In your diagram, you must explicitly label the communication protocol used for each connection.
+- [ ] This time, instead of taking photos of your connections, you should draw **an abstract hardware connection diagram**.<br> In your diagram, you must explicitly label the communication protocol used for each connection.
 
 
 🎉 **Check Point 1**
-Demo that you can display all 4 data on the Raspberry Pi side at the same time.
+
+Demo that you can display all 4 data values on the Raspberry Pi side at the same time.
 
 ---
 ## 2. Web-Based Monitor
