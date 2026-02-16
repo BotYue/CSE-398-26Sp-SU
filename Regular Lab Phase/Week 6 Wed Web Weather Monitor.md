@@ -7,13 +7,31 @@
 -------------------
 
 
-## 1. Basic Setup: Receive Sensor Data
+## 1. Receive Sensor Data
 
-In this task, you will do such basic set-up
+- [ ] In this task, you will configure the sensor connection, and eventualy receive all these data on the Raspberry Pi side:
 
+1. **Humidity** from the **DHT11** sensor
+2. **Temperature** from the **DHT11** sensor
+3. **Wind level** from the **MPU-6050 IMU** (let's assume the motion data reflects wind strength)
+4. **Light level** from the **BH1750** light sensor
+
+**Wind level definition:**
+
+$$\text{wind level} = |a_x| + |a_y| + |a_z|$$
+
+*(Use accelerometer readings only.)*
+
+- [ ] You are free to configure the wiring for these sensors either directly on the Raspberry Pi or through an Arduino. You may use at most one Arduino board.
+
+- [ ] This time, instead of taking photos of your connections, you should draw an abstract hardware connection diagram. In your diagram, you must explicitly label the communication protocol used for each connection.
+
+
+🎉 **Check Point 1**
+Demo that you can display all 4 data on the Raspberry Pi side at the same time.
 
 ---
-## 1. Web-Based Monitor
+## 2. Web-Based Monitor
 
 🎉 **Check Point 2**
 
