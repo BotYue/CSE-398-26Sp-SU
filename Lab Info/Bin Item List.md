@@ -19,3 +19,8 @@ Students are responsible for maintaining all assigned lab components in good wor
 * Micro HDMI to HDMI Male Cable
 * Jump wires
 * Raspbeyy Pi cooler (to be installed)
+
+#### New Update_Feb
+* BH1750 Light Sensor
+* Smraza 9G Micro Servo Motor x2
+* DHT11 Temperature Humidity Sensor
