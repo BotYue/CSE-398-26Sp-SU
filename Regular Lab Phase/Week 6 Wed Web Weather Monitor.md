@@ -26,6 +26,15 @@ $$\text{wind level} =  \text{factor} \times (|a_x| + |a_y| + |a_z|)$$
 
 - [ ] This time, instead of taking photos of your connections, you should draw **an abstract hardware connection diagram**.<br> In your diagram, you must explicitly label the communication protocol used for each connection.
 
+> [!NOTE]
+> Both MPU-6050 IMU and BH1750 have supported Python library:
+> - **MPU-6050:** https://github.com/adafruit/Adafruit_CircuitPython_MPU6050
+> - **BH1750:** https://github.com/adafruit/Adafruit_CircuitPython_BH1750
+>  
+> When you install extra Python library in Rasp Pi, you should always do `--break-system-packages`. Example seen in [previous adafruit_ssd1306 Python package install](Week%204%20Mon%20I2C.md#2-i2c---a-status-monitor)
+
+> [!TIP]
+> A key feature of I²C is that it allows multiple devices to share the same bus.
 
 🎉 **Check Point 1**
 
