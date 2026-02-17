@@ -41,7 +41,7 @@ $$\text{wind level} =  \text{factor} \times (|a_x| + |a_y| + |a_z|)$$
 Demo that you can display all 4 data values on the Raspberry Pi side at the same time.
 
 ---
-## 2. Web-Based Monitor via Agentic CLI Programming
+## 2. Web-Based Weather Monitor via Agentic CLI Programming
 
 - [ ] In this task, you will use agentic command-line (CLI) programming on the Raspberry Pi to
   assist with building a web-based monitor for logging and displaying all sensor data.
@@ -50,12 +50,20 @@ Demo that you can display all 4 data values on the Raspberry Pi side at the same
 
 - [ ] Prompts used should be documented in your Markdown report.
 
+- [ ] In detail, the web-based weather monitor should:
+  - **receive, log, and display** all four sensor data from Part 1
+  - use a **Flask + HTML + CSV/JSON** approach
+  - provide a clear (or nice-looking) GUI, including Value-vs-Time plots
+  - you should try to add additional feature for use-interaction beyond the basic requirements.
+  - You should understand the overall generated code and know how to make modification.
 
-
-
+- [ ] This is a sample web that I quickly used GPT to generate. You will do better than mine.
+  <img src="Pic/weather monitor.png" width="800"/>
+  
 🎉 **Check Point 2**
 
-Each student must present **individually for 30 seconds** to describe personal contributions during this lab, accompanied by questions from the lab staff.<br>
+Each student must present **individually for 30 seconds** to describe personal contributions during this lab.<br>
+Each student will be asked about how to make modification to some parts of the web app.<br>
 The other two students in the same group must not assist.<br>
 Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
 
