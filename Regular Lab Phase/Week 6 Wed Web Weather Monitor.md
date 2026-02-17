@@ -41,7 +41,17 @@ $$\text{wind level} =  \text{factor} \times (|a_x| + |a_y| + |a_z|)$$
 Demo that you can display all 4 data values on the Raspberry Pi side at the same time.
 
 ---
-## 2. Web-Based Monitor
+## 2. Web-Based Monitor via Agentic CLI Programming
+
+- [ ] In this task, you will use agentic command-line (CLI) programming on the Raspberry Pi to
+  assist with building a web-based monitor for logging and displaying all sensor data.
+
+- [ ] If you are unable to set up an agentic CLI tool, you may instead use a chat-window–based AI assistant.
+
+- [ ] Prompts used should be documented in your Markdown report.
+
+
+
 
 🎉 **Check Point 2**
 
