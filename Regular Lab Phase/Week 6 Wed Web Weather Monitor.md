@@ -24,7 +24,7 @@ $$\text{wind level} =  \text{factor} \times (|a_x| + |a_y| + |a_z|)$$
 
 - [ ] You are free to configure the wiring of these sensors<br>Either directly on the Raspberry Pi or through an Arduino. <br>You may use at most one Arduino board.
 
-- [ ] This time, instead of taking photos of your connections, you should draw **an abstract hardware connection diagram**.<br> In your diagram, you must explicitly label the communication protocol used for each connection.
+- [ ] This time, instead of taking photos of your connections, you should draw **a System Architecture Diagram** for your implementation in Task 1. Provide this in Markdown.
 
 > [!NOTE]
 > Both MPU-6050 IMU and BH1750 have supported Python library:
