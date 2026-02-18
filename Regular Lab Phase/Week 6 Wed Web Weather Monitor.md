@@ -33,6 +33,9 @@ $$\text{wind level} =  \text{factor} \times (|a_x| + |a_y| + |a_z|)$$
 >  
 > When you install extra Python library in Rasp Pi, you should always do `--break-system-packages`. Example seen in [previous adafruit_ssd1306 Python package install](Week%204%20Mon%20I2C.md#2-i2c---a-status-monitor)
 
+> [!NOTE]
+>  DHT has supported Arduino library: https://learn.adafruit.com/dht/using-a-dhtxx-sensor-with-arduino
+
 > [!TIP]
 > A key feature of I²C is that it allows multiple devices to share the same bus.
 
