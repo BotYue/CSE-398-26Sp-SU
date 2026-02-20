@@ -6,11 +6,6 @@
 #### :pencil: Every group member must be present for every check point.
 -------------------
 
-
-## 1. Basic Setup: Servo and Arduino
-
-In this task, you will do such basic set-up
-
 ## 1. Configure Audio Devices
 
 We have:
