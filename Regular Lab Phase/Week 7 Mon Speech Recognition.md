@@ -125,35 +125,43 @@ for segment in segments:
     print("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
 
 ```
-
-------------  
-- [ ] **Resource Consideration**
-
-When deploying AI models on embedded devices (such as Raspb Pi), you should be aware of the system resource usage.
-
-Now, find a way to exam the GPU usage, RAM usage, and temperature change when you run your speech recognition model.
-
-You should also report this in your Markdown.
-
-
 🎉 **Check Point 1**
-<br> Demo your speech recognition. Also explain the resource usage.
+<br> Demo if it works
 
 ------
 
 ## 3. Food Ordering via Voice
 
-In this task, you will design a voice-based food ordering system that runs locally on a Raspberry Pi.
+- [ ] **System Design**
 
-In this system:
+In this task, you will design a voice-based food ordering system that runs locally on a Raspberry Pi:
 
-* Choose a fast-food restaurant of your preference and display its menu to user.
+* Choose a fast-food restaurant of your preference and display its food/drink menu to user.
 
-* The user speaks for about 10~15 seconds to place a food order.
+* The user speaks for 10 seconds to order 1 or more menu iterms.
 
 * The recorded .mp4 audio file is processed using Faster-Whisper for speech recognition.
 
-* The recognized text is passed to a string-matching module. It maps to one or more valid menu items. For example, you can use `RapidFuzz` for string matching https://github.com/rapidfuzz/RapidFuzz 
+* The recognized text is passed to a string-matching module. It maps to one or more valid menu items. For example, you can use `RapidFuzz` for string matching. RapidFuzz is already in Rasp Pi's Python. https://github.com/rapidfuzz/RapidFuzz 
 
-* The full system output can be displayed in the Python console or terminal, or optionally thru a web browser.
+* The full system output can be displayed as text in the Python console or Terminal, or optionally thru a web browser with good GUI.
 
+> If displayed in a web-browser with good GUI:
+>
+> can get **3/20 extra points back** in one single previous Markdown submission. (reach out to TA to recover your points)
+
+- [ ] **Resource Consideration**
+
+When deploying AI models on embedded devices (such as Rasp Pi), you should be aware of the system resource usage.
+
+Now, find a way to exam the GPU usage, and RAM usage when you run your system.
+
+You should also report this in your Markdown.
+
+
+🎉 **Check Point 2**
+
+Each student must present **individually for 30 seconds** to describe personal contributions during this lab.<br>
+Each student will be asked a question.<br>
+The other two students in the same group must not assist.<br>
+Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
