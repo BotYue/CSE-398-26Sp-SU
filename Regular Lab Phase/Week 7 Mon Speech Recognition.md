@@ -32,10 +32,10 @@ From here, you need to know your USB mic is labeled as ```card 0``` and ```devic
 
 - [ ] **Record a sample audio clip**
 
-Run this command line to record an audio file, here the 2 numbers in ```plughw:0,0 ``` responding to the previous ```card 0``` and ```device 0```. `-t 5` sets 5-second record.
+Run this command line to record an audio file, here the 2 numbers in ```plughw:0,0 ``` responding to the previous ```card 0``` and ```device 0```. `-t 5` sets 10-second record.
 
 ```shell
-ffmpeg -f alsa -i plughw:0,0 -t 5 output_feb_21_a.mp4
+ffmpeg -f alsa -i plughw:0,0 -t 10 output_feb_21_a.mp4
 ```
 
 - [ ] **Check the recorded audio clip**
