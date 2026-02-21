@@ -57,11 +57,11 @@ If your Monitor cannot play audio, you can simply open a `http.server`, download
 
 ## 2. Install and Use ```faster-whisper```
 
-OpenAI developed Automatic Speech Recognition models called ```whisper``` :
+OpenAI developed Automatic Speech Recognition models called ```Whisper``` :
 
 https://platform.openai.com/docs/guides/speech-to-text
 
-```faster-whisper``` is a GitHub project that re-implements OpenAI's ```whisper``` model and works faster and more suitable for embeded devices:
+```Faster-Whisper``` is a GitHub project that re-implements OpenAI's ```whisper``` model and works better for embeded devices:
 
 https://github.com/SYSTRAN/faster-whisper 
 
@@ -131,10 +131,29 @@ for segment in segments:
 
 When deploying AI models on embedded devices (such as Raspb Pi), you should be aware of the system resource usage.
 
-Now, find a way to exam the GPU and RAM usage when you run your sppeach recognition model.
+Now, find a way to exam the GPU usage, RAM usage, and temperature change when you run your speech recognition model.
 
-You should also report this in your Markdown
+You should also report this in your Markdown.
 
 
 🎉 **Check Point 1**
 <br> Demo your speech recognition. Also explain the resource usage.
+
+------
+
+## 3. Food Ordering via Voice
+
+In this task, you will design a voice-based food ordering system that runs locally on a Raspberry Pi.
+
+In this system:
+
+* Choose a fast-food restaurant of your preference and define its menu.
+
+* The user speaks for about 10~15 seconds to place a food order.
+
+* The recorded .mp4 audio file is processed using Faster-Whisper for speech recognition.
+
+* The recognized text is passed to a string-matching module. It maps to one or more valid menu items.
+
+* The full system output can be displayed in the Python console or terminal, or optionally thru a web browser.
+
