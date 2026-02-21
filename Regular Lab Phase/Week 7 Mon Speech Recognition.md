@@ -29,10 +29,10 @@ card 0: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
 
 From here, you need to know it is labeled as ```card 0``` and ```device 0```.
 
-Then run this command line to record an audio file, here the 2 numbers in ```plughw:0,0 ``` responding to the previous ```card 0``` and ```device 0```
+Then run this command line to record an audio file, here the 2 numbers in ```plughw:0,0 ``` responding to the previous ```card 0``` and ```device 0```. `-t 5` sets 5-second record.
 
 ```shell
-cao@raspberrypiCao:~ $ arecord -D plughw:0,0 -f cd test.wav
+ffmpeg -f alsa -i plughw:0,0 -t 5 output_feb_21.mp4
 ```
 
 You can Ctrl+C to stop recording. Then listen to the audio in your folder.
