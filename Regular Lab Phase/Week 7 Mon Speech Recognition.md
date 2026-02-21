@@ -8,11 +8,9 @@
 
 ## 1. Configure Audio Devices
 
-We have:
+We have Adafruit Mini USB Microphone: https://www.adafruit.com/product/3367
 
-* Adafruit Mini USB Microphone: https://www.adafruit.com/product/3367
-
-- [ ] **Second configure the microphone.**
+- [ ] **Configure the microphone.**
 
 Start with checking all audio input:
 
