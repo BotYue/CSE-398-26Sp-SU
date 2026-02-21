@@ -27,24 +27,27 @@ card 0: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
   Subdevice #0: subdevice #0
 ```
 
-From here, you need to know it is labeled as ```card 0``` and ```device 0```.
+From here, you need to know your USB mic is labeled as ```card 0``` and ```device 0```.
 
-Then run this command line to record an audio file, here the 2 numbers in ```plughw:0,0 ``` responding to the previous ```card 0``` and ```device 0```. `-t 5` sets 5-second record.
 
-```shell
-ffmpeg -f alsa -i plughw:0,0 -t 5 output_feb_21.mp4
-```
+- [ ] **Record a sample audio clip**
 
-You can Ctrl+C to stop recording. Then listen to the audio in your folder.
-```
-
-You should see ```USB Audio [USB Audio]``` in the list.
-
-Your Audio output may de default set as the Minitor's HDMI. If so,
+Run this command line to record an audio file, here the 2 numbers in ```plughw:0,0 ``` responding to the previous ```card 0``` and ```device 0```. `-t 5` sets 5-second record.
 
 ```shell
-cao@raspberrypiCao:~ $ sudo raspi-config
+ffmpeg -f alsa -i plughw:0,0 -t 5 output_feb_21_a.mp4
 ```
+
+- [ ] **Check the recorded audio clip**
+You can play the audio and check whether it has been recorded.
+
+Your Audio output may de default set as the Minitor's HDMI. Check it with:
+
+```shell
+sudo raspi-config
+```
+
+In "System Options -> S2 Audio" :
 
 <img src="Pic/configaudio.png" width="500"/>
 
