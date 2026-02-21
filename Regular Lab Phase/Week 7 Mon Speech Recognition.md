@@ -51,11 +51,5 @@ In "System Options -> S2 Audio" :
 
 <img src="Pic/configaudio.png" width="500"/>
 
-Go to **1 System Options** , Then **S2 Audio** Then adjust settings.
-
-Then run this testing Commond Line, or just play any YouTube video:
-
-```shell
-cao@raspberrypiCao:~ $ speaker-test -c2 -twav
-```
+If your Monitor cannot play audio, you can simply open a `http.server`, download the audio to your own laptop, and then play it.
 
