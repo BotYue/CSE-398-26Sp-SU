@@ -91,7 +91,7 @@ These printed models, they are actually hosted on ```Huggingface``` website:
 
 https://huggingface.co/Systran 
 
-For each listed model, you can clicked into:
+For each listed model, you can click into on the webpage:
 
 * In **Files and versions**, you can see their download size. Better avoid download something over 1 GB. It would be too much for your Pi.
   <kbd><img src="Pic/huggingface.png" width="600"/></kbd>
@@ -108,7 +108,7 @@ For each listed model, you can clicked into:
 
 After downloading the models, use our USB microphone and record a **10 seconds audio about ordering fast food at a kiosk**.
 
-Simple code example
+Then, you can use this simple code example to conduct speech recgnition.
 
 ```python
 from faster_whisper import WhisperModel
