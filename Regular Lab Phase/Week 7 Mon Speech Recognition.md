@@ -147,13 +147,13 @@ In this task, you will design a voice-based food ordering system that runs local
 
 In this system:
 
-* Choose a fast-food restaurant of your preference and define its menu.
+* Choose a fast-food restaurant of your preference and display its menu to user.
 
 * The user speaks for about 10~15 seconds to place a food order.
 
 * The recorded .mp4 audio file is processed using Faster-Whisper for speech recognition.
 
-* The recognized text is passed to a string-matching module. It maps to one or more valid menu items.
+* The recognized text is passed to a string-matching module. It maps to one or more valid menu items. For example, you can use `RapidFuzz` for string matching https://github.com/rapidfuzz/RapidFuzz 
 
 * The full system output can be displayed in the Python console or terminal, or optionally thru a web browser.
 
