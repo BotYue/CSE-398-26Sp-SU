@@ -144,9 +144,9 @@ In this task, you will design a voice-based food ordering system that runs local
 
 * The recognized text is passed to a string-matching module. It maps to one or more valid menu items. For example, you can use `RapidFuzz` for string matching. RapidFuzz is already in Rasp Pi's Python. https://github.com/rapidfuzz/RapidFuzz 
 
-* The full system output can be displayed as text in the Python console or Terminal, or optionally thru a web browser with good GUI.
+* The full system output can be displayed as text in the Python console or Terminal, or optionally thru a web browser, with good GUI looking like a actual food order kiosk.
 
-> If displayed in a web-browser with good GUI:
+> If displayed in a web-browser with good GUI looking like a actual food order kiosk:
 >
 > can get **3/20 extra points back** in one single previous Markdown submission. (reach out to TA to recover your points)
 
