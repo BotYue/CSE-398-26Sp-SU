@@ -59,7 +59,7 @@ OpenAI developed Automatic Speech Recognition models called ```whisper``` :
 
 https://platform.openai.com/docs/guides/speech-to-text
 
-```faster-whisper``` is a GitHub project that re-implements OpenAI's ```whisper``` model and works faster:
+```faster-whisper``` is a GitHub project that re-implements OpenAI's ```whisper``` model and works faster and more suitable for embeded devices:
 
 https://github.com/SYSTRAN/faster-whisper 
 
@@ -70,8 +70,6 @@ Do such in Terminal:
 ```shell
 cao@raspberrypiCao:~ $ pip3 install faster-whisper --break-system-packages
 ```
-
-This will install all required packages for ```faster-whisper```. 
 
 - [ ] **Download models**
 
