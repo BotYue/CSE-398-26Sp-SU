@@ -53,6 +53,8 @@ In "System Options -> S2 Audio" :
 
 If your Monitor cannot play audio, you can simply open a `http.server`, download the audio to your own laptop, and then play it.
 
+-------
+
 ## 2. Install and Use ```faster-whisper```
 
 OpenAI developed Automatic Speech Recognition models called ```whisper``` :
@@ -104,7 +106,7 @@ For each listed model, you can clicked into:
 ------------  
 - [ ] **Check models**
 
-After downloading the models, use our USB microphone and record a 10 seconds audio about ordering fast food at a kiosk.
+After downloading the models, use our USB microphone and record a **10 seconds audio about ordering fast food at a kiosk**.
 
 Simple code example
 
@@ -124,4 +126,15 @@ for segment in segments:
 
 ```
 
+------------  
+- [ ] **Resource Consideration**
+
+When deploying AI models on embedded devices (such as Raspb Pi), you should be aware of the system resource usage.
+
+Now, find a way to exam the GPU and RAM usage when you run your sppeach recognition model.
+
+You should also report this in your Markdown
+
+
 🎉 **Check Point 1**
+<br> Demo your speech recognition. Also explain the resource usage.
