@@ -71,7 +71,7 @@ Do such in Terminal:
 cao@raspberrypiCao:~ $ pip3 install faster-whisper --break-system-packages
 ```
 
-- [ ] **Download models**
+- [ ] **Look thru models**
 
 The Speech Recognition models are not defaulty downloaded in your Pi.
 
@@ -95,6 +95,11 @@ For each listed model, you can clicked into:
   <kbd><img src="Pic/huggingface.png" width="600"/></kbd>
 * In **Model card**, if you run the Python code piece in Example, it will automatically download the model to your Pi.
   <kbd><img src="Pic/huggingface2.png" width="600"/></kbd>
+
+- [ ] **Download models**
+<br> The `faster-whisper-tiny.en` and `faster-whisper-base.en` are two well-suited models for your Rasp Pi.
+<br> the '.en' means they only works for English.
+<br> Download them.
 
 ------------  
 - [ ] **Check models**
