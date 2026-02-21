@@ -104,20 +104,19 @@ For each listed model, you can clicked into:
 ------------  
 - [ ] **Check models**
 
-After downloading the models, use our USB microphone and record a 10 seconds audio.
+After downloading the models, use our USB microphone and record a 10 seconds audio about ordering fast food at a kiosk.
 
-Do such code. Check Comments:
+Simple code example
 
 ```python
 from faster_whisper import WhisperModel
 
-model_size = "base.en"   # change 1: English-only
+model_size = "base.en"   
 model = WhisperModel(model_size, device="cpu", compute_type="int8")
 
 segments, info = model.transcribe(
     "output_feb_21_a.mp4",
-    beam_size=5,
-    temperature=0.0      # change 2: deterministic decoding
+    beam_size=5
 )
 
 for segment in segments:
