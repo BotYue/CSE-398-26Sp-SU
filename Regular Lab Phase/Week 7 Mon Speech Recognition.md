@@ -106,7 +106,7 @@ For each listed model, you can click into on the webpage:
 ------------  
 - [ ] **Check models**
 
-After downloading the models, use our USB microphone and record a **10 seconds audio about ordering fast food at a kiosk**.
+After downloading the models, use our USB microphone and record a **10 seconds audio about ordering food/drink at a kiosk**.
 
 Then, you can use this simple code example to conduct speech recgnition.
 
@@ -130,13 +130,13 @@ for segment in segments:
 
 ------
 
-## 3. Food Ordering via Voice
+## 3. Menu Ordering via Voice
 
 - [ ] **System Design**
 
-In this task, you will design a voice-based food ordering system that runs locally on a Raspberry Pi:
+In this task, you will design a voice-based menu ordering system that runs locally on a Raspberry Pi:
 
-* Choose a fast-food restaurant of your preference and display its food/drink menu to user.
+* Choose a fast-food restaurant or cafe of your preference and display its food/drink menu to user.
 
 * The user speaks for 10 seconds to order 1 or more menu iterms.
 
