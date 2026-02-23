@@ -154,7 +154,7 @@ In this task, you will design a voice-based menu ordering system that runs local
 
 When deploying AI models on embedded devices (such as Rasp Pi), you should be aware of the system resource usage.
 
-Now, find a way to exam the GPU usage, and RAM usage when you run your system.
+Now, find a way to exam the CPU usage, and RAM usage when you run your system.
 
 You should also report this in your Markdown.
 
