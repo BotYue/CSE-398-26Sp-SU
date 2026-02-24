@@ -6,21 +6,23 @@
 #### :pencil: Every group member must be present for every check point.
 -------------------
 
-## 1. Preparation
+## 0. Preparation
 
 - [ ] Choose any api-based LLM on your preference, such as Open AI, Gemini, Claude, ...
 
+- [ ] Create 2 api keys: one key for Task 1.. Text-based Input
 You don't need to show the api key in the Markdown submission.
 
-- [ ] The Task today is to develop an **EE Circuit tutor** for students, such as studing ELE 231.
+- [ ] The Task today is to develop an **EE Circuit tutor** for students.
 
 - [ ] We have prepared materials in course GitHub repo "Regular Lab Phase -> Asset".
-	There are 15 circuits in total. Each circuit is represented by 2 formats:
+	There are 10 circuits in total. Each circuit is represented by 2 formats:
 	* SPICE (text based format)
 	* Image (screenshot from LTSpice software)
 
 *The circuits are from the open-access textbook:* "Circuit Analysis and Design, 3rd Edition, Umich Publication" https://services.publishing.umich.edu/Books/Electrical-Engineering-Textbooks
 
+	* The solutions of DC operating points are on BlackBoard
 ------
 
 ## 1. Text-based Input
