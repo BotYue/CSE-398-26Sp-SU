@@ -8,13 +8,19 @@
 
 ## 0. Preparation
 
-- [ ] Choose any api-based LLM on your preference. recommend: Open AI or Gemini.
+- [ ] Choose any api-based LLM on your preference. recommend: Open AI, Gemini, Claude.
 
 - [ ] Create 2 api keys:
 * **one key for Task 1. Text-based Input**; 
 * **one key for Task 2. Image-based Input**
 
 You don't need to show the api key in the Markdown submission.
+
+> Extra Note only for Gemini:
+>
+> In Google AI Studio, usage is tracked per project, not per API key.
+>
+> So you should create two different projects, then create an api under each project.
 
 - [ ] The Task today is to
 * **Develop** an LLM-based **EE Circuit tutor** for students; 
@@ -65,7 +71,7 @@ $$\text{Accuracy} =\frac{\text{Correct circuits}}{10} $$
 * [ ] Token usage:
 
 Report the token usage data during your experiment for this task.
-<br> Especially the input token, output token, price.
+<br> Especially the token, price.
 <br> You can provide screenshot the data from the platform webpage.
 
 
