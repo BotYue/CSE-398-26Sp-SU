@@ -77,9 +77,6 @@ Report the token usage data during your experiment for this task.
 |---------------------|
 | <img src="Pic/token2.png" width="800"> | 
 
-> If can also correctly perform **Mesh Analysis**, and report the same style in Markdown.
->
-> can get **3/20 extra points back** in one single previous Markdown submission. (reach out to TA to recover your points)
 
 🎉 **Check Point 1**
 <br> Show your work, including Table in Markdown.
@@ -104,3 +101,8 @@ Report the token usage data during your experiment for this task.
 <br> Show your work, including Table in Markdown.
 <br> Describe your work individually.
 <br> Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
+
+
+> If you can also use Text-based input and correctly perform **Mesh Analysis**. And report the same style in Markdown.
+>
+> can get **3/20 extra points back** in one single previous Markdown submission. (reach out to TA to recover your points)
