@@ -28,8 +28,9 @@ You don't need to show the api key in the Markdown submission.
   
 - [ ] We have prepared materials in course GitHub repo "Regular Lab Phase -> Asset".
 	<br>10 circuits in total. Each circuit is represented by 2 formats:
-	* **Text** (SPICE Netlist, auto-generated from LTSpice after building the circuit)
+	* **Text** (SPICE Netlist, auto-generated from LTSpice after building the circuit).
 	* **Image** (screenshot from LTSpice software)
+
 
 - [ ] The circuits are from the open-access textbook: *"Circuit Analysis and Design, 3rd Edition, Umich Publication"* https://services.publishing.umich.edu/Books/Electrical-Engineering-Textbooks
 
@@ -38,6 +39,21 @@ You don't need to show the api key in the Markdown submission.
 	<br>Circuits solutions are given in the BlackBoard (Quick Note Folder) for references.
 
 
+For example,
+This is a **Text-based** input format:
+```
+V1 N001 0 10
+R1 N002 0 5
+R2 N003 0 2.5
+R3 P001 N001 2
+R4 N002 P001 3
+I1 0 N003 0.8
+R5 N003 N002 10
+```
+
+This is an **Image-based** input format:
+
+<img src="Asset/Image/Circuit_1.png" width="600">
 
 
 ------
