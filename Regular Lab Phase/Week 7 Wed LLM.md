@@ -8,7 +8,7 @@
 
 ## 0. Preparation
 
-- [ ] Choose any api-based LLM on your preference. recommend: Open AI, Gemini, Claude.
+- [ ] Choose any api-based LLM on your preference. recommend: Open AI, Gemini.
 
 - [ ] Create 2 api keys:
 * **one key for Task 1. Text-based Input**; 
@@ -33,8 +33,8 @@ You don't need to show the api key in the Markdown submission.
 
 - [ ] The circuits are from the open-access textbook: *"Circuit Analysis and Design, 3rd Edition, Umich Publication"* https://services.publishing.umich.edu/Books/Electrical-Engineering-Textbooks
 
-- [ ] All circuits are only with resistors, indepdent voltage source, or indepedent current source
-	<br>There is no depedent sources or other components. 
+- [ ] All circuits are only with resistors, indenpdent voltage source, or indenpedent current source
+	<br>There is no dependent sources or other components. 
 	<br>Circuits solutions are given in the BlackBoard (Quick Note Folder) for references.
 
 
