@@ -77,7 +77,7 @@ Report the token usage data during your experiment for this task.
 |---------------------|
 | <img src="Pic/token2.png" width="800"> | 
 
-> If can also correctly perform **Mesh Analysis**, and report the same style Table in Markdown.
+> If can also correctly perform **Mesh Analysis**, and report the same style in Markdown.
 >
 > can get **3/20 extra points back** in one single previous Markdown submission. (reach out to TA to recover your points)
 
