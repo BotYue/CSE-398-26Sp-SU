@@ -59,6 +59,15 @@ Report the token usage data during your experiment for this task.
 <br> Especially the input token, output token, price.
 <br> You can provide screenshot the data from the platform webpage.
 
+
+| Example from OpenAI Platform: Input Token per API |  
+|---------------------|
+| <img src="Pic/token1.png" width="780"> | 
+
+| Example from OpenAI Platform: Output Token per API |  
+|---------------------|
+| <img src="Pic/token2.png" width="780"> | 
+
 > If can also correctly perform **Mesh Analysis**, and report the same style Table in Markdown.
 >
 > can get **3/20 extra points back** in one single previous Markdown submission. (reach out to TA to recover your points)
@@ -68,9 +77,6 @@ Report the token usage data during your experiment for this task.
 <br> Describe your work individually.
 <br> Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
 
-| **Rotation**                      | **Theoretical $V_{out}$** | **Arduino Serial Monitor** | **Analog Discovery** |
-|:------------:|:--------------:|:--------:|:--------:|
-| 180° |               1.65 V                 |                            |                      |
 
 -------
 
