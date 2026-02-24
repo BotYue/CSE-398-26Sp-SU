@@ -64,13 +64,13 @@ Report the token usage data during your experiment for this task.
 <br> You can provide screenshot the data from the platform webpage.
 
 
-| Example from OpenAI Platform: Input Token per API |  
+| Example from OpenAI Platform: Input Token per API. <br> My 2 keys are named as *nodal_text* and *nodal_image*  |  
 |---------------------|
-| <img src="Pic/token1.png" width="780"> | 
+| <img src="Pic/token1.png" width="800"> | 
 
-| Example from OpenAI Platform: Output Token per API |  
+| Example from OpenAI Platform: Input Token per API. <br> My 2 keys are named as *nodal_text* and *nodal_image* |  
 |---------------------|
-| <img src="Pic/token2.png" width="780"> | 
+| <img src="Pic/token2.png" width="800"> | 
 
 > If can also correctly perform **Mesh Analysis**, and report the same style Table in Markdown.
 >
