@@ -16,7 +16,7 @@ You don't need to show the api key in the Markdown submission.
 - [ ] The Task today is to develop an **EE Circuit tutor** for students.
 
 - [ ] We have prepared materials in course GitHub repo "Regular Lab Phase -> Asset".
-	There are 10 circuits in total. Each circuit is represented by 2 formats:
+	<br>10 circuits in total. Each circuit is represented by 2 formats:
 	* SPICE (text based format)
 	* Image (screenshot from LTSpice software)
 
@@ -36,43 +36,56 @@ You don't need to show the api key in the Markdown submission.
 * Accepts a SPICE-format netlist input.
 * Performs **Nodal Analysis** with correct math.
 * Provide structured, student-understandable text output that clearly explains the solving procedure.
+* Try to make as many as answers to be correct
 
 - [ ] For the Markdown submission, provide the full code. If your prompt is stored in a separate file, explicitly show it.
 - [ ] For the Markdown submission, you only need to include **2 LLM outputs of the 10 circuits**.
 
 - [ ] Create a Markdown table to report:
 
-  * The **final nodal solution** (final node voltages)
-  * Whether it is **Correct** compared with the official solutions (BlackBoard)
-
-| Circuit # | Final node voltages (V) | correct? (Y/N) | Mismatch reason if |
+| Circuit # | Final node voltages (V) | Correct? (Y/N) | Mismatch reason |
 | --------: | ---------------------------------------- | :----------------------: | ---------------------------- |
-|         1 | V(n1)=...; V(n2)=...          |           Y / N          |  ---------------------------- | 
+|         1 | V(n1)=...; V(n2)=...          |           Y / N          |  ... | 
 |         ... | ...      |         ...       |  ... | 
 
-* [ ] **Accuracy calculation (all 10 circuits):**
-  Evaluate correctness for all 10 circuits, then compute:
+* [ ] Compute:
 
-$$\text{Accuracy} =\frac{\text{Correct circuits}}{10}\times $$
-
+$$\text{Accuracy} =\frac{\text{Correct circuits}}{10} $$
 
 
-> If can also correctly perform **Mesh Analysis** 
+* [ ] Token usage:
+
+Report the token usage data during your experiment for this task.
+<br> Especially the input token, output token, price.
+<br> You can provide screenshot the data from the platform webpage.
+
+> If can also correctly perform **Mesh Analysis**, and report the same style Table in Markdown.
 >
 > can get **3/20 extra points back** in one single previous Markdown submission. (reach out to TA to recover your points)
 
+🎉 **Check Point 1**
+<br> Show your work, including Table in Markdown.
+<br> Describe your work individually.
+<br> Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
+
+| **Rotation**                      | **Theoretical $V_{out}$** | **Arduino Serial Monitor** | **Analog Discovery** |
+|:------------:|:--------------:|:--------:|:--------:|
+| 180° |               1.65 V                 |                            |                      |
 
 -------
 
 ## 2. Image-based Input
 
+- [ ] The requirements of Task 2 are the same as Task 1, except the input format changes from text-based netlist to image-based circuit schematic.
 
+- [ ] Low accuracy is acceptable due to challenges in image understanding.
+
+- [ ] Report the same things as Task 1: Detail Table, Accurancy, Token usage
 
 
 
 🎉 **Check Point 2**
 
-Each student must present **individually for 30 seconds** to describe personal contributions during this lab.<br>
-Each student will be asked a question.<br>
-The other two students in the same group must not assist.<br>
-Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
+<br> Show your work, including Table in Markdown.
+<br> Describe your work individually.
+<br> Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
