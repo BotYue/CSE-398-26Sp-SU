@@ -13,8 +13,10 @@
 - [ ] Create 2 api keys: one key for Task 1.. Text-based Input
 You don't need to show the api key in the Markdown submission.
 
-- [ ] The Task today is to develop an **EE Circuit tutor** for students.
-
+- [ ] The Task today is to
+* **Develop** an LLM-based **EE Circuit tutor** for students; 
+* and **Access** the performce of the LLM in on domain-specific tasks (circuit analysis ).
+  
 - [ ] We have prepared materials in course GitHub repo "Regular Lab Phase -> Asset".
 	<br>10 circuits in total. Each circuit is represented by 2 formats:
 	* SPICE (text based format)
@@ -42,6 +44,8 @@ You don't need to show the api key in the Markdown submission.
 - [ ] For the Markdown submission, you only need to include **2 LLM outputs of the 10 circuits**.
 
 - [ ] Create a Markdown table to report:
+
+*You have taken ELE 231. So you will act as the domain expert to evaluate the LLM’s performance*
 
 | Circuit # | Final node voltages (V) | Correct? (Y/N) | Mismatch reason |
 | --------: | ---------------------------------------- | :----------------------: | ---------------------------- |
