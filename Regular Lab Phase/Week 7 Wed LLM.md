@@ -20,13 +20,46 @@ You don't need to show the api key in the Markdown submission.
 	* SPICE (text based format)
 	* Image (screenshot from LTSpice software)
 
-*The circuits are from the open-access textbook:* "Circuit Analysis and Design, 3rd Edition, Umich Publication" https://services.publishing.umich.edu/Books/Electrical-Engineering-Textbooks
+- [ ] The circuits are from the open-access textbook: *"Circuit Analysis and Design, 3rd Edition, Umich Publication"* https://services.publishing.umich.edu/Books/Electrical-Engineering-Textbooks
 
-	* The solutions of DC operating points are on BlackBoard
+- [ ] There is no depedent sources in all the given circuits. Circuits solutions are given in the BlackBoard for references.
+
+
+
+
 ------
 
 ## 1. Text-based Input
 
+- [ ] Use an LLM model, create a system that:
+
+* Accepts a SPICE-format netlist input.
+* Performs **Nodal Analysis** with correct math.
+* Provide structured, student-understandable text output that clearly explains the solving procedure.
+
+- [ ] For the Markdown submission, provide the full code. If your prompt is stored in a separate file, explicitly show it.
+- [ ] For the Markdown submission, you only need to include **2 LLM outputs of the 10 circuits**.
+
+- [ ] Create a Markdown table to report:
+
+  * The **final nodal solution** (final node voltages)
+  * Whether it is **Correct** compared with the official solutions (BlackBoard)
+
+| Circuit # | Final node voltages (V) | correct? (Y/N) | Mismatch reason if |
+| --------: | ---------------------------------------- | :----------------------: | ---------------------------- |
+|         1 | V(n1)=...; V(n2)=...          |           Y / N          |  ---------------------------- | 
+|         ... | ...      |         ...       |  ... | 
+
+* [ ] **Accuracy calculation (all 10 circuits):**
+  Evaluate correctness for all 10 circuits, then compute:
+
+$$\text{Accuracy} =\frac{\text{Correct circuits}}{10}\times $$
+
+
+
+> If can also correctly perform **Mesh Analysis** 
+>
+> can get **3/20 extra points back** in one single previous Markdown submission. (reach out to TA to recover your points)
 
 
 -------
