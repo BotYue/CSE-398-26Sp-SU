@@ -124,6 +124,7 @@ Report the token usage data during your experiment for this task.
 <br> Describe your work individually.
 <br> Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
 
+*You may pause the api billing to your card after completion*
 
 > If you can also use Text-based input and correctly perform **Mesh Analysis**. And report the same style in Markdown.
 >
