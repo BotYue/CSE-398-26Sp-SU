@@ -27,7 +27,8 @@ Always remember to adjust for Pi OS: ```pip3``` and ```--break-system-packages``
 
 - [ ] **Download YOLO26**
 
-Run this Python. It will download the model of YOLO26 nano
+Run this Python. It will download the model of YOLO26 nano model
+<br> This model is released on Jan 2026.
 
 https://docs.ultralytics.com/models/yolo26/
 
@@ -46,30 +47,22 @@ Run this Python.
 import cv2
 from ultralytics import YOLO
 
-
 model = YOLO("yolo26n.pt")
-
-
 cap = cv2.VideoCapture(0)
-
 
 while True:
     ret, frame = cap.read()
     if not ret:
         break
 
-
     small = cv2.resize(frame, (320, 240))     # force 320x240 input
     results = model.predict(small, imgsz=320, verbose=False)  # keep imgsz small
-
 
     annotated = results[0].plot()
     cv2.imshow("YOLO USB Cam", annotated)
 
-
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-
 
 cap.release()
 cv2.destroyAllWindows()
