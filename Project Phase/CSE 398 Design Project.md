@@ -13,7 +13,7 @@ The Design Project expects you to demonstrate your comprehensive skills on Compu
 
 You should begin thinking about your project as soon as possible, even before Spring Break. 
 
-The Design Project ends at **Wednesday, Apr. 22**.
+The Design Project Demo is scheduled at **Wednesday, Apr. 22**.
 
 ----------
 
@@ -26,9 +26,9 @@ The Design Project ends at **Wednesday, Apr. 22**.
 - [ ] Every student in a group is expected to complete **10 hours lab work** per week. 
 	  Considering a group of 3 and 5 weeks, your project is expected to be 3 x 10 x 5 = **150 person-hours**.
 	
-- [ ] Every week, **every group** needs to maintain a **group Markdown** to record your progress. The Markdown is still due every Monday evening.
+- [ ] Every week, **every group** needs to maintain a **group Markdown** to record your progress. The Markdown is due every Monday evening.
 	
-- [ ] Every week, **every student** needs submit an **individual Work Timesheet** on their own, in word/pdf format.
+- [ ] Every week, **every student** needs submit an **individual Work Timesheet** on their own, in word/pdf format. The Timesheet is due every Monday evening.
 	
 	The Work Timesheet includes:
 
@@ -47,7 +47,7 @@ The Design Project ends at **Wednesday, Apr. 22**.
 
 | **selfie with lab background** |**pi time with lab background** |
 |---------|---------|
-| <img src="Pic/1000028929.jpg" height="350"> | <img src="Pic/1000028930.jpg" height="350"> |
+| <img src="Pic/1000028929.jpg" height="320"> | <img src="Pic/1000028930.jpg" height="320"> |
 ----------
 
 #### 3. Project Specifications
@@ -93,7 +93,7 @@ The Design Project ends at **Wednesday, Apr. 22**.
 	
 - [ ] Advice: Choose a topic that all team members are truly interested in.
 
-<img src="Pic/1000028924.jpg" width="600"/>
+<img src="Pic/1000028924.jpg" width="500"/>
 
 ----------
 
