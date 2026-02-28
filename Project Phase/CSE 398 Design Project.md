@@ -107,8 +107,8 @@ It is distributed as:
 | **Group Weekly Markdown & Individual Work Timesheet & Progress Meeting** | 15%    |     | A student will lose points each week if no sufficient individual contribution.                   |
 | **Final Poster**                                      | 5%     | Group      |                                                                                     |
 | **Final Report**                                      | 5%     | Individual |                                                                                               |
-| **Final Demo**                                        | 10%    | Group      | Evaluated by lab instructor, lab TA, invited faculty, and out-of-class students.                                      |
-| **Professional Contribution Assessment**              | 10%    | Individual | Evaluated jointly by the lab instructor, lab TA, and peer evaluation from group members.  |
+| **Final Demo**                                        | 10%    | Group      | Evaluated by lab instructor, lab TA, invited faculty, and out-of-class students. Based on technical implementation and presetation.|
+| **Professional Contribution Assessment**              | 10%    | Individual | Evaluated by lab instructor, lab TA, and peer evaluation from group members. Based on individual contribution and professionalism.|
 
 
 
