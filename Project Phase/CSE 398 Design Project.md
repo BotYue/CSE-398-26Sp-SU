@@ -117,6 +117,7 @@ It is distributed as:
 
 | Date             | Activity                       | Submission                                                     |
 | ---------------- | ------------------------------ | ------------------------------------------------------------------ |
+| :red_circle:**Mar 16 (Mon)** |   Discussion of project idea        | |
 | :large_blue_circle:**Mar 18 (Wed)** | Proposal presentation     |                 Presentation Slides            |
 | :red_circle:**Mar 23 (Mon)** |           | Group Markdown, Individual Work Timesheet, Order request|
 | :large_blue_circle:**Mar 25 (Wed)** | Progress Meeting   | —                                                                  |
