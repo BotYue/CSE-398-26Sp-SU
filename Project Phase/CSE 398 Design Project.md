@@ -110,6 +110,8 @@ It is distributed as:
 | **Final Demo**                                        | 10%    | Group      | Evaluated by lab instructor, lab TA, invited faculty, and out-of-class students.                                      |
 | **Professional Contribution Assessment**              | 10%    | Individual | Evaluated jointly by the lab instructor, lab TA, and peer evaluation from group members.  |
 
+
+
 -------------
 
 #### 5. Project Agenda and Dues
@@ -133,7 +135,14 @@ It is distributed as:
 | - | -              | Exam Week                               |
 | :large_blue_circle:**May 6 (Wed)** |             | Project Report                                |
 
-*Note: Even if no specific activity is explicitly listed, the scheduled lab time remains a required working session for project development.*
+*Note 1: Even if no specific activity is explicitly listed, the scheduled lab time remains a required working session for project development.*
+
+
+*Note 2: Late penalty (-10% per business day. After 5 business-day-delay, grade will be zero) applies to
+<br>Presentation Slides, Group Markdown, Project Report*
+
+*Note 3: these don't accept late submission:
+<br>Individual Work Timesheet, Order request, Poster*
 
 -------------
 
