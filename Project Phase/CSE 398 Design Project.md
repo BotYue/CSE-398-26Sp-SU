@@ -21,7 +21,7 @@ The Design Project Demo is scheduled at **Wednesday, Apr. 22**.
 
 - [ ] Students should attend and actively work during the regular lab session on Monday and Wednesday. If not, you need provide justified reason and make it up in other hours.
 
-- [ ] Every Wednesday, students will have a 10 minutes group meeting with lab instructor and TA. The group meeting will review your last-week work and discuss next-week plan. Every group member needs to be present.
+- [ ] Every Wednesday, students will have a 10-15 minutes **Progress Meeting** with lab instructor and TA. The meeting will review your last-week work and discuss next-week plan. Every group member must to be present.
 
 - [ ] Every student in a group is expected to complete **10 hours lab work** per week. 
 	  Considering a group of 3 and 5 weeks, your project is expected to be 3 x 10 x 5 = **150 person-hours**.
@@ -77,8 +77,6 @@ The Design Project Demo is scheduled at **Wednesday, Apr. 22**.
 
 	    Simple coding is not acceptable.
 	    
-	    You should consider extra feature
-	    
 	* Your overall system should incorporate **advanced features** such as:
 
 	    * Automation 
@@ -106,7 +104,7 @@ It is distributed as:
 |                                           | Weight | Type       | Description                                                                                                                                                                  |
 | ----------------------------------------------------- | ------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Proposal Presentation**                             | 5%     | Group      |     Evaluated based on overall proposal and individual presentation.                                                                                           |
-| **Group Weekly Markdown & Individual Work Timesheet** | 15%    |     | A student will lose points each week if no sufficient individual contribution.                   |
+| **Group Weekly Markdown & Individual Work Timesheet & Progress Meeting** | 15%    |     | A student will lose points each week if no sufficient individual contribution.                   |
 | **Final Poster**                                      | 5%     | Group      |                                                                                     |
 | **Final Report**                                      | 5%     | Individual |                                                                                               |
 | **Final Demo**                                        | 10%    | Group      | Evaluated by lab instructor, lab TA, invited faculty, and out-of-class students.                                      |
@@ -119,20 +117,22 @@ It is distributed as:
 
 | Date             | Activity                       | Submission                                                     |
 | ---------------- | ------------------------------ | ------------------------------------------------------------------ |
-| **Mar 18 (Wed)** | In-class proposal presentation     | Project proposal planning meeting                                  |
-| **Mar 23 (Mon)** | In-class proposal presentation | Proposal slides (Blackboard) <br> Parts / order request submission |
-| **Mar 25 (Wed)** | In-class project meeting       | —                                                                  |
-| **Mar 30 (Mon)** | —                              | Group Markdown update <br> Individual Work Timesheet               |
-| **Apr 1 (Wed)**  | In-class project meeting       | —                                                                  |
-| **Apr 6 (Mon)**  | —                              | Group Markdown update <br> Individual Work Timesheet               |
-| **Apr 8 (Wed)**  | In-class project meeting       | —                                                                  |
-| **Apr 13 (Mon)** | —                              | Group Markdown update <br> Individual Work Timesheet               |
-| **Apr 15 (Wed)** | In-class project meeting       | —                                                                  |
-| **Apr 20 (Mon)** | —                              | Final Group Markdown update <br> Final Individual Work Timesheet   |
-| **Apr 22 (Wed)** | 🎯 **Demo Day**                | Final project demonstration                                        |
+| :large_blue_circle:**Mar 18 (Wed)** | Proposal presentation     |                 Presentation Slides            |
+| :red_circle:**Mar 23 (Mon)** |           | Group Markdown, Individual Work Timesheet, Order request|
+| :large_blue_circle:**Mar 25 (Wed)** | Progress Meeting   | —                                                                  |
+| :red_circle:**Mar 30 (Mon)** |                             |  Group Markdown, Individual Work Timesheet               |
+| :large_blue_circle:**Apr 1 (Wed)**  | Progress Meeting      | —                                                                  |
+| :red_circle:**Apr 6 (Mon)**  |                               |  Group Markdown, Individual Work Timesheet               |
+| :large_blue_circle:**Apr 8 (Wed)**  | Progress Meeting      | —                                                                  |
+| :red_circle:**Apr 13 (Mon)** |                              |  Group Markdown, Individual Work Timesheet               |
+| :large_blue_circle:**Apr 15 (Wed)** | Progress Meeting       | —                                                                  |
+| :red_circle:**Apr 20 (Mon)** |                              | Group Markdown, Individual Work Timesheet  |
+| :large_blue_circle:**Apr 22 (Wed)** | 🎯 **Demo Day**                | Poster                                     |
+| :red_circle:**Apr 27 (Mon)** |       Project disassembly & Inventory check       |                                |
+| - | -              | Exam Week                               |
+| :large_blue_circle:**May 6 (Wed)** |             | Project Report                                |
 
-
-
+*Note: Even if no specific activity is explicitly listed, the scheduled lab time remains a required working session for project development.*
 
 -------------
 
@@ -140,7 +140,7 @@ It is distributed as:
 
 Each group can request 50 USD (max 5 items) purchase from the department. The order needs to be reviewed and approved. 
 
-Groups are strongly encouraged to consider purchasing items on their own due to the possible delay in department purchase.
+However, groups are strongly encouraged to consider purchasing items on their own due to the possible delay in department purchase.
 
 You can request purchase from the following vendors: 
 
