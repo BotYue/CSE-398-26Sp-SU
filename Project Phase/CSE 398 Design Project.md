@@ -9,9 +9,11 @@
 
 #### 1. Project Overview
 
-The Design Project expects you to demonstrate your comprehensive skills on Computer Engineering. It is a prerequisite for the Senior Design. It can be a valuable highlight on your resume.
+The Design Project expects you to demonstrate your comprehensive skills on Computer Engineering. It is a prerequisite for the Senior Design. It can also be a valuable highlight on your resume.
 
-The Design Project starts right after the Spring Break. The Design Project ends at the last day of the class, **Wednesday, Apr. 22**.
+You should begin thinking about your project as soon as possible, even before Spring Break. 
+
+The Design Project ends at **Wednesday, Apr. 22**.
 
 ----------
 
@@ -24,7 +26,7 @@ The Design Project starts right after the Spring Break. The Design Project ends 
 - [ ] Every student in a group is expected to complete **10 hours lab work** per week. 
 	  Considering a group of 3 and 5 weeks, your project is expected to be 3 x 10 x 5 = **150 person-hours**.
 	
-- [ ] Every week, **every student** needs to maintain an **individual Markdown** to record your progress. The Markdown is still due every Monday evening.
+- [ ] Every week, **every group** needs to maintain a **group Markdown** to record your progress. The Markdown is still due every Monday evening.
 	
 - [ ] Every week, **every student** needs submit an **individual Work Timesheet** on their own, in word/pdf format.
 	
@@ -63,7 +65,7 @@ The Design Project starts right after the Spring Break. The Design Project ends 
 	
 	Also consider leave space for audience.
 	
-- [ ] Your project should demonstrate good system-level integration, combining hardware components and software implementation into a functioning system
+- [ ] Your project should demonstrate good **system-level integration**, combining hardware components and software implementation into a functioning system
 
 	* For the **hardware**, you need to have at least **2 different types of peripherals**.
 
@@ -77,15 +79,15 @@ The Design Project starts right after the Spring Break. The Design Project ends 
 	    
 	    You should consider extra feature
 	    
-	* Your overall system should incorporate advanced features such as:
+	* Your overall system should incorporate **advanced features** such as:
 
-	    ** Automation 
+	    * Automation 
 	
-	    ** Intelligence
+	    * Intelligence
 	    
-	    ** A well-designed and user-friendly interface
+	    * User-friendly interface
 	
-	    **Integration of emerging technologies introduced in recent years
+	    * Integration of emerging technologies developed in recent years
 
 - [ ] Your project needs to adhere to Ethics guidelines
 	
@@ -97,25 +99,25 @@ The Design Project starts right after the Spring Break. The Design Project ends 
 
 #### 4. Grade Breakdown
 
-The design project take up 50% of the final grade.
+The design project take up **50%** of the final grade.
 
 It is distributed as:
 
-* Proposal Presentation  **5 %**: group presentation
-* Individual Weekly Markdown & Work Timesheet  **15%**: A student will lose points per week if not showing enough commitment individually.
-* Final Poster  **5%**: group
-* Final Report  **5%**: individual report
-* Final Demo **10%**: will be judged by lab staff, other faculty, out-of-class students.
-* Professional Contribution Assessment **10%**: evaluated jointly by the lab instructor, lab TA, and peer evaluation from group members.
-
+|                                           | Weight | Type       | Description                                                                                                                                                                  |
+| ----------------------------------------------------- | ------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Proposal Presentation**                             | 5%     | Group      |     Evaluated based on overall proposal and individual presentation.                                                                                           |
+| **Group Weekly Markdown & Individual Work Timesheet** | 15%    |     | A student will lose points each week if no sufficient individual contribution.                   |
+| **Final Poster**                                      | 5%     | Group      |                                                                                     |
+| **Final Report**                                      | 5%     | Individual |                                                                                               |
+| **Final Demo**                                        | 10%    | Group      | Evaluated by lab instructor, lab TA, invited faculty, and out-of-class students.                                      |
+| **Professional Contribution Assessment**              | 10%    | Individual | Evaluated jointly by the lab instructor, lab TA, and peer evaluation from group members.  |
 
 -------------
 
 #### 5. Project Agenda and Dues
 
-## 📅 Design Project Timeline (Spring 2026)
 
-| Date             | Activity                       | Deliverables                                                       |
+| Date             | Activity                       | Submission                                                     |
 | ---------------- | ------------------------------ | ------------------------------------------------------------------ |
 | **Mar 18 (Wed)** | In-class proposal presentation     | Project proposal planning meeting                                  |
 | **Mar 23 (Mon)** | In-class proposal presentation | Proposal slides (Blackboard) <br> Parts / order request submission |
@@ -146,17 +148,20 @@ You can request purchase from the following vendors:
 * Adafruit (2 weeks or more shipping time)
 * SparkFun Electronics (2 weeks or more)
 * DigiKey (2 weeks or more)
-* https://robotis.us/  (2 weeks or more )
-* Pololu Robotics and Electronics (2 weeks or more)
 
-After Demo Day, all projects will be disassembled and lab components will be returned to inventory.
+---------
 
-Components purchased personally by students will be returned to the individual owner.
+#### 7. Component Return
 
-If you would like to keep your full project, you must purchase all hardware components yourself, including the Raspberry Pi.
+* After Demo Day, all projects will be disassembled and lab components will be returned to inventory.
 
-If you would like to keep your microSD card only, you must provide a replacement microSD card so that the lab inventory can be restored. 
+* Components purchased personally by students will be returned to the individual owner.
 
-acceted types: Samsung EVO Select microSD 64 GB or 128 GB
-Sandisk Ultra microSD 64 GB or 128 GB
-both speed should be >100 MB/s
+* If you would like to keep your full project, you must purchase all hardware components yourself, including the Raspberry Pi.
+
+* If you would like to keep your microSD card only, you must provide a replacement microSD card so that the lab inventory can be restored. 
+
+	* acceted types:
+	* **Samsung EVO Select** microSD 64 GB or 128 GB
+	* **Sandisk Ultra** microSD 64 GB or 128 GB
+	* speed should be >100 MB/s
