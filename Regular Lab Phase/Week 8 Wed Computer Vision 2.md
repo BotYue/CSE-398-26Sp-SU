@@ -41,10 +41,8 @@ Start a new .py, use ```torchvision.datasets``` to load downloaded dataset. Then
 > [!TIP]
 > The training can be done in your own laptop or any Cloud platform (such as Google Colab) for speeding up.
 > 
-Start over a new .py. Use ```torch.nn``` to create a neural network. Then train the neural network in the Pi.
+Start over a new .py. Use ```torch.nn``` to create a neural network. Then train the neural network.
 
-* Remember to do ```torch.device("cpu")``` for Pi, not ```gpu```
-* Record your training time. expect to be >20 minutes.
 * Save the trained model in your local disk.
 
 ```shell
@@ -87,7 +85,7 @@ Inference Time: 0.0048 seconds
 
 🎉 **Check Point 1**
 
-Show your result.
+Show your result. (Can use your laptop or raspberry pi)
 
 ------------------
 ## 2. Real-Time Video Frame Classification  — MobileNet
