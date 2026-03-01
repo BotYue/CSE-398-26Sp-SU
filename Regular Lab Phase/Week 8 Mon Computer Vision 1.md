@@ -70,6 +70,10 @@ cv2.destroyAllWindows()
 
 Place a few objects before camera and see if works!
 
+
+> [!TIP]
+>In Pi OS, the  ```cv2.imshow``` often conflicts with system GUI and may result to an error ```could not find the Qt platform plugin "wayland"``` . If so, you can use Python ```flask``` to display the stream on Pi's browser.
+
 ---
 
 The objects have to be in one of the 80 categories in<br> https://github.com/ultralytics/ultralytics/blob/main/ultralytics/cfg/datasets/coco.yaml 
