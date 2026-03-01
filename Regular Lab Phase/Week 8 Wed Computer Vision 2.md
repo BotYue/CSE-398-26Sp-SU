@@ -112,6 +112,27 @@ The model is trained on the **ImageNet-1K dataset**, which contains 1000 object 
 * Standard naming: https://github.com/pytorch/hub/blob/master/imagenet_classes.txt ; 
 * Alternative American-styled naming: https://github.com/anishathalye/imagenet-simple-labels
 
+You can get the model and check by:
+
+```python
+import torch
+from torchvision.models import mobilenet_v3_small, MobileNet_V3_Small_Weights
+
+# Load pretrained model
+weights = MobileNet_V3_Small_Weights.DEFAULT
+model = mobilenet_v3_small(weights=weights)
+model.eval()
+
+# Load categories
+categories = weights.meta["categories"]
+
+# Check some categories
+print("Total classes:", len(categories))
+print("First 10 classes:")
+for i in range(10):
+    print(i, ":", categories[i])
+```
+
 - [ ] **Task: Real-Time Image Classification on Raspberry Pi**
 
 Your task is to implement a **real-time image classification system** using MobileNetV3-Small.
