@@ -169,6 +169,6 @@ Here are 3 screenshots of my running (This is using ```flask``` package and disp
 🎉 **Check Point 2**
 
 Each student must present **individually for 30 seconds** to describe personal contributions during this lab.<br>
-Each student will be asked a question regarding to implementation or YOLO details.<br>
+Each student will be asked a question regarding to implementation.<br>
 The other two students in the same group must not assist.<br>
 Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
