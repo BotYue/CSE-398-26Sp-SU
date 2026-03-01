@@ -6,9 +6,9 @@
 #### :pencil: Every group member must be present for every check point.
 -------------------
 
-## 3. Deep Vision Workflow — Fashion MNIST
+## 3. Image Classification Workflow — Fashion MNIST
 
-In this task, we will try the deep-learning-based computer vision. We will go thru the procedures step by step.
+In this task, we will try the image classification workflow via deep learning. We will go thru the procedures step by step.
 
 We will use **PyTorch** + **Torchvision** as deep vision framework. They are already installed when you installed ```Ultralytics``` 
 
@@ -88,16 +88,14 @@ Inference Time: 0.0048 seconds
 🎉 **Check Point 1**
 
 ------------------
-## 4. Real-Time Deep Vision for Embedded System  — MobileNet
+## 4. Real-Time Image Classification for Embedded System  — MobileNet
 
-In the first task, when you run YOLO on Raspberry Pi 5, you may notice the frame rate is relatively low.
+In the Monday's task, when you run YOLO on Raspberry Pi 5, you may notice the frame rate is relatively low.
 
-To narrow down the scope, instead of detecting **many objects + bounding boxes** (YOLO), we will simplify the problem to recognizing **a single main object** in the camera view.
+To narrow down the scope, instead of detecting **multiple objects + bounding boxes** (YOLO), we will simplify the problem to recognizing **a single main object** in the camera view.
 
-In this task, we introduce a faster method for this purpose: **MobileNet**.
-
-* **YOLO** is mainly for **object detection**: it finds multiple objects in an image and outputs **(class + location/bounding box + confidence)**.
-* **MobileNet** is mainly for **image classification**: it predicts one label for the whole image (or for a cropped region), outputting **(class + confidence)**.
+* **YOLO** is for **object detection**: it finds multiple objects in an image, and outputs **{class + location/bounding box + confidence}**.
+* **MobileNet** is for **image classification**: it predicts one label for the whole image, and outputs **{class + confidence}**.
 
 Because classification is simpler than detection, it runs significantly faster on embedded platforms like Raspberry Pi.
 
@@ -113,8 +111,6 @@ The model is trained on the **ImageNet-1K dataset**, which contains 1000 object 
 
 * Standard naming: https://github.com/pytorch/hub/blob/master/imagenet_classes.txt ; 
 * Alternative American-styled naming: https://github.com/anishathalye/imagenet-simple-labels
-
----
 
 - [ ] **Task: Real-Time Image Classification on Raspberry Pi**
 
