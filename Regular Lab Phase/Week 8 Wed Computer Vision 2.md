@@ -117,8 +117,8 @@ The model was published in 2019: https://arxiv.org/abs/1905.02244  .
 
 Instead of using the default implementation, you should apply a few embedded-friendly optimizations:
 
-* Limit PyTorch CPU threads
-* Use INT8 quantization to speed up CPU inference
+* Limit PyTorch CPU threads, leave room for other tasks such as OpenCV pre-processing, Flask streaming, ...
+* Use int8 quantization to speed up CPU inference
 * Use QNNPACK as the quantized backend (optimized for ARM CPUs)
   
 > [!TIP]
