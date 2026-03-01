@@ -92,7 +92,7 @@ Inference Time: 0.0048 seconds
 
 In the Monday's task, when you run YOLO on Raspberry Pi 5, you may notice the frame rate is relatively low.
 
-To narrow down the scope, instead of detecting **multiple objects + bounding boxes** (YOLO), we will simplify the problem to recognizing **a single main object** in the camera view.
+Instead of detecting **multiple objects + bounding boxes** (YOLO), we will simplify the problem to recognizing **a single main object** in the camera view.
 
 * **YOLO** is for **object detection**: it finds multiple objects in an image, and outputs **{class + location/bounding box + confidence}**.
 * **MobileNet** is for **image classification**: it predicts one label for the whole image, and outputs **{class + confidence}**.
@@ -101,7 +101,7 @@ Because classification is simpler than detection, it runs significantly faster o
 
 ---------
 
-- [ ] Pre-trained Model
+- [ ] **Pre-trained MobileNetV3-Small Model**
 
 We will use the pretrained **MobileNetV3-Small** model provided by PyTorch:
 
@@ -133,59 +133,27 @@ for i in range(10):
     print(i, ":", categories[i])
 ```
 
-- [ ] **Task: Real-Time Image Classification on Raspberry Pi**
+* [ ] **Real-Time Video Frame Classification on Raspberry Pi**
 
-Your task is to implement a **real-time image classification system** using MobileNetV3-Small.
+Your task is to implement a **real-time video frame classification system** using the **MobileNetV3-Small** model (ImageNet pretrained).
 
-* Use Pre-trained MobileNetV3-Small
+* Use a live USB camera stream on the Raspberry Pi.
+* Capture video frames continuously.
+* For each video frame:
 
-Import the model using:
+  * Perform MobileNetV3-Small inference.
+  * Compute the Top-1 predicted class label.
+  * Compute the corresponding confidence score.
+* Overlay the following information directly on the live video stream: 
 
-```python
-from torchvision.models import mobilenet_v3_small, MobileNet_V3_Small_Weights
-
-weights = MobileNet_V3_Small_Weights.DEFAULT
-model = mobilenet_v3_small(weights=weights)
-model.eval()
-```
-
-Use the built-in preprocessing transforms:
-
-```python
-preprocess = weights.transforms()
-```
-
----
-
-### - [ ] Video Streaming
-
-Use the Pi’s USB camera to capture real-time video.
-
-* If running locally with desktop access, use `cv2.imshow()`.
-* If running headless, use `flask` and stream to a browser.
-
-Overlay the predicted class label and confidence on the video frame.
-
----
-
-### - [ ] FPS Measurement
-
-Display real-time FPS on the video stream.
-
-You should measure:
-
-* Total loop FPS
-* Model inference time (optional but recommended)
-
----
-
-# What You Should Observe
-
-Compared to YOLO:
-
-* FPS should increase significantly.
-* No bounding box will be produced.
-* Only one dominant class label will be predicted per frame.
+  * Predicted label
+  * Confidence 
+  * FPS
+  
+> [!TIP]
+>In Pi OS, the  ```cv2.imshow``` often conflicts with system GUI and may result to an error ```could not find the Qt platform plugin "wayland"``` . If so, you can use Python ```flask``` to display the stream on Pi's browser.
+> 
+>You can use `cv2.putText` to overlay text.
 
 
 
