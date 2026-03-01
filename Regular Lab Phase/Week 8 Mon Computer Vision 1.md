@@ -1,4 +1,4 @@
-# Week 8 Mon: Speech Recognition
+# Week 8 Mon: Computer Vision 1
 
 ---------------
 #### :dizzy: **Lab Date :** Mar 2
