@@ -103,47 +103,60 @@ Because classification is simpler than detection, it runs significantly faster o
 
 ---------
 
-- [ ] **Pre-trained MobileNetV3-Small Model**
+- [ ] **Pre-trained MobileNetV3-Large Model**
 
-We will use the pretrained **MobileNetV3-Small** model provided by PyTorch:
+We will use the pretrained **MobileNetV3-Large** model provided by PyTorch:
 
 [https://docs.pytorch.org/vision/main/models/mobilenetv3.html](https://docs.pytorch.org/vision/main/models/mobilenetv3.html)
 
-The model is trained on the **ImageNet-1K dataset**, which contains 1000 object categories.
+The model was published in 2019: https://arxiv.org/abs/1905.02244  . 
+<br>It is trained on the **ImageNet-1K dataset**, which contains 1000 object categories.
 
 * Standard naming: https://github.com/pytorch/hub/blob/master/imagenet_classes.txt ; 
 * Alternative American-styled naming: https://github.com/anishathalye/imagenet-simple-labels
 
-You can get the model and check by:
+- [ ] **Optimize for Embedded Device**
 
+Instead of using the default implementation, you should apply a few embedded-friendly optimizations:
+
+* Limit PyTorch CPU threads
+* Use INT8 quantization to speed up CPU inference
+* Use QNNPACK as the quantized backend (optimized for ARM CPUs)
+  
+> [!TIP]
+> A detailed explanation of these optimizations can be found in the article:
+[https://docs.pytorch.org/tutorials/intermediate/realtime_rpi.html](https://docs.pytorch.org/tutorials/intermediate/realtime_rpi.html)
+> 
+> Note, this article uses MobileNetV2 and doen't use a USB camera, but the same optimization ideas.
+
+The optimized model can be verified using the following code:
+  
 ```python
 import torch
-from torchvision.models import mobilenet_v3_small, MobileNet_V3_Small_Weights
+from torchvision.models.quantization import mobilenet_v3_large, MobileNet_V3_Large_QuantizedWeights
 
-# Load pretrained model
-weights = MobileNet_V3_Small_Weights.DEFAULT
-model = mobilenet_v3_small(weights=weights)
-model.eval()
+torch.set_num_threads(2)
+torch.backends.quantized.engine = "qnnpack"
 
-# Load categories
-categories = weights.meta["categories"]
+# Load quantized V3-Large
+weights = MobileNet_V3_Large_QuantizedWeights.DEFAULT
+model = mobilenet_v3_large(weights=weights, quantize=True).eval()
 
-# Check some categories
-print("Total classes:", len(categories))
-print("First 10 classes:")
-for i in range(10):
-    print(i, ":", categories[i])
+# JIT
+model = torch.jit.script(model)
+
+print("MobileNetV3-Large INT8 loaded successfully.")
 ```
 
 * [ ] **Real-Time Video Frame Classification on Raspberry Pi**
 
-Your task is to implement a **real-time video frame classification system** using the **MobileNetV3-Small** model (ImageNet pretrained).
+Your task is to implement a **real-time video frame classification system** using the **MobileNetV3-Large** model (ImageNet pretrained).
 
 * Use a live USB camera stream on the Raspberry Pi.
 * Capture video frames continuously.
 * For each video frame:
 
-  * Perform MobileNetV3-Small inference.
+  * Perform MobileNetV3-Large inference.
   * Compute the Top-1 predicted class label.
   * Compute the corresponding confidence score.
 * Overlay the following information directly on the live video stream: 
