@@ -177,7 +177,7 @@ Here are 3 screenshots of my running (This is using ```flask``` package and disp
 
 | **Screenshot 1** |**Screenshot 2** |**Screenshot 3** |
 |---------|---------|---------|
-| <img src="Pic/mobilenet_3.png" height="250"> | <img src="Pic/mobilenet_2.png" height="250"> |<img src="Pic/mobilenet_1.png" height="250"> |
+| <img src="Pic/MN_3.png" height="250"> | <img src="Pic/MN_2.png" height="250"> |<img src="Pic/MN_1.png" height="250"> |
 
 🎉 **Check Point 2**
 
