@@ -6,7 +6,7 @@
 #### :pencil: Every group member must be present for every check point.
 -------------------
 
-## 3. Image Classification Workflow — Fashion MNIST
+## 1. Image Classification Workflow — Fashion MNIST
 
 In this task, we will try the image classification workflow via deep learning. We will go thru the procedures step by step.
 
@@ -90,7 +90,7 @@ Inference Time: 0.0048 seconds
 Show your result.
 
 ------------------
-## 4. Real-Time Video Frame Classification  — MobileNet
+## 2. Real-Time Video Frame Classification  — MobileNet
 
 In the Monday's task, when you run YOLO on Raspberry Pi 5, you may notice the frame rate is relatively low.
 
