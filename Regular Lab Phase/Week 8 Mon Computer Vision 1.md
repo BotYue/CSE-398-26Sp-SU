@@ -56,7 +56,7 @@ while True:
         break
 
     small = cv2.resize(frame, (320, 240))     # force 320x240 input
-    results = model.predict(small, imgsz=320, verbose=False)  # keep imgsz small
+    results = model.predict(small, imgsz=320, verbose=False)  # keep img small
 
     annotated = results[0].plot()
     cv2.imshow("YOLO USB Cam", annotated)
@@ -72,5 +72,34 @@ Place a few objects before camera and see if works!
 
 The objects have to be in one of the 80 categories in https://github.com/ultralytics/ultralytics/blob/main/ultralytics/cfg/datasets/coco.yaml 
 
+You can also simply check the 80 categories in Python:
+
+```python
+model = YOLO("yolo26n.pt")
+print(model.names)
+```
 
 <img src="Pic/yolo_cao.jpg" width="500"/>
+
+
+
+## 2. **Visual Servoing with YOLO**
+
+In the previous code, add this right below `results = model.predict(small, imgsz=320, verbose=False)`
+
+```python
+print(results)
+```
+
+Observe what is print out.
+
+Then, change the print to 
+```python
+results[0].speed
+```
+and
+```python
+results[0].boxes
+```
+Observe what is print out.
+
