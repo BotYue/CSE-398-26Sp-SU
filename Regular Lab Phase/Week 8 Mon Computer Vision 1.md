@@ -106,6 +106,12 @@ results[0].boxes
 ```
 Observe what is printed out.
 
+Refer to official doc of Ultralytics YOLO to understand them
+
+* https://docs.ultralytics.com/modes/predict/#working-with-results
+
+* https://docs.ultralytics.com/datasets/detect/#ultralytics-yolo-format
+
 ----
 
 Once you understand the print-out info, start to develop a simple **visual servoing system using YOLO**. In simple terms, you will use the camera feed to control a motor’s movement.
