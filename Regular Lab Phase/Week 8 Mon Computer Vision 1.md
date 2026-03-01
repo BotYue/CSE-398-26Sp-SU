@@ -83,7 +83,8 @@ print(model.names)
 
 <img src="Pic/yolo_cao.jpg" width="500"/>
 
-
+🎉 **Check Point 1**
+<br> Demo if it works
 
 ## 2. **Visual Servoing with YOLO**
 
@@ -109,9 +110,9 @@ Observe what is printed out.
 
 Once you understand the print-out info, start to develop a simple **visual servoing system using YOLO**. In simple terms, you will use the camera feed to control a motor’s movement.
 
-Rule (based on object location in the camera view):
+Rules (based on object location in the camera view):
 
-* Suppose the screen is splitted into 3 equal parts
+* Suppose the camera view is splitted into 3 equal parts
 
 * Object in the left region → rotate motor in a direction
 
@@ -120,3 +121,15 @@ Rule (based on object location in the camera view):
 * Object in the right region → rotate motor in opposite direction
 
 Again, dont directly connect motor to your Rasp Pi !
+
+In addition, you should also report these metrics in your Markdown:
+* Width, Height
+* Model Inference Time
+* FPS
+
+🎉 **Check Point 2**
+
+Each student must present **individually for 30 seconds** to describe personal contributions during this lab.<br>
+Each student will be asked a question.<br>
+The other two students in the same group must not assist.<br>
+Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
