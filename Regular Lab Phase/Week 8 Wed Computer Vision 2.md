@@ -160,8 +160,8 @@ Your task is to implement a **real-time video frame classification system** usin
 ----------
 Here are 2 screenshots of my running (This is using ```flask``` package and display in a browser):
 
-| **Screenshot 1** |**Screenshot 2** |
-|---------|---------|
-| <img src="Pic/bottlepic.png" height="400"> | <img src="Pic/playerpic.png" height="400"> |
+| **Screenshot 1** |**Screenshot 2** |**Screenshot 3** |
+|---------|---------|---------|
+| <img src="Pic/mobilenet_3.png" height="250"> | <img src="Pic/mobilenet_2.png" height="250"> |<img src="Pic/mobilenet_1.png" height="250"> |
 
 🎉 **Check Point 2**
