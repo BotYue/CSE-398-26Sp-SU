@@ -88,7 +88,7 @@ print(model.names)
 
 ## 2. **Visual Servoing with YOLO**
 
-In the previous code, add this right below `results = model.predict(small, imgsz=320, verbose=False)`
+- [ ] In the previous code, add this right below `results = model.predict(small, imgsz=320, verbose=False)`
 
 ```python
 print(results)
@@ -96,7 +96,7 @@ print(results)
 
 Observe what is printed out.
 
-Then, change the print to 
+- [ ] Then, change the print to 
 ```python
 results[0].speed
 ```
@@ -106,13 +106,15 @@ results[0].boxes
 ```
 Observe what is printed out.
 
-Refer to official doc of Ultralytics YOLO to understand them
+- [ ] Refer to official doc of Ultralytics YOLO to understand them
 
 * https://docs.ultralytics.com/modes/predict/#working-with-results
 
 * https://docs.ultralytics.com/datasets/detect/#ultralytics-yolo-format
 
 ----
+
+- [ ] **System Design**
 
 Once you understand the print-out info, start to develop a simple **visual servoing system using YOLO**. In simple terms, you will use the camera feed to control a motor’s movement.
 
@@ -128,7 +130,7 @@ Rules (based on object location in the camera view):
 
 Again, dont directly connect motor to your Rasp Pi !
 
-In addition, you should also report these metrics in your Markdown:
+- [ ] In addition, you should also report these metrics in your Markdown:
 * Width, Height
 * Model Inference Time
 * FPS
