@@ -70,7 +70,9 @@ cv2.destroyAllWindows()
 
 Place a few objects before camera and see if works!
 
-The objects have to be in one of the 80 categories in https://github.com/ultralytics/ultralytics/blob/main/ultralytics/cfg/datasets/coco.yaml 
+---
+
+The objects have to be in one of the 80 categories in<br> https://github.com/ultralytics/ultralytics/blob/main/ultralytics/cfg/datasets/coco.yaml 
 
 You can also simply check the 80 categories in Python:
 
@@ -91,7 +93,7 @@ In the previous code, add this right below `results = model.predict(small, imgsz
 print(results)
 ```
 
-Observe what is print out.
+Observe what is printed out.
 
 Then, change the print to 
 ```python
@@ -101,5 +103,20 @@ and
 ```python
 results[0].boxes
 ```
-Observe what is print out.
+Observe what is printed out.
 
+----
+
+Once you understand the print-out info, start to develop a simple **visual servoing system using YOLO**. In simple terms, you will use the camera feed to control a motor’s movement.
+
+Rule (based on object location in the camera view):
+
+* Suppose the screen is splitted into 3 equal parts
+
+* Object in the left region → rotate motor in a direction
+
+* Object in the center region → STOP
+
+* Object in the right region → rotate motor in opposite direction
+
+Again, dont directly connect motor to your Rasp Pi !
