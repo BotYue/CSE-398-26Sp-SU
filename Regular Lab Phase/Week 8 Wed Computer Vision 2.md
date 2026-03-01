@@ -87,8 +87,10 @@ Inference Time: 0.0048 seconds
 
 🎉 **Check Point 1**
 
+Show your result.
+
 ------------------
-## 4. Real-Time Image Classification for Embedded System  — MobileNet
+## 4. Real-Time Video Frame Classification  — MobileNet
 
 In the Monday's task, when you run YOLO on Raspberry Pi 5, you may notice the frame rate is relatively low.
 
@@ -158,10 +160,15 @@ Your task is to implement a **real-time video frame classification system** usin
 
 
 ----------
-Here are 2 screenshots of my running (This is using ```flask``` package and display in a browser):
+Here are 3 screenshots of my running (This is using ```flask``` package and display a real-time steam in a browser):
 
 | **Screenshot 1** |**Screenshot 2** |**Screenshot 3** |
 |---------|---------|---------|
 | <img src="Pic/mobilenet_3.png" height="250"> | <img src="Pic/mobilenet_2.png" height="250"> |<img src="Pic/mobilenet_1.png" height="250"> |
 
 🎉 **Check Point 2**
+
+Each student must present **individually for 30 seconds** to describe personal contributions during this lab.<br>
+Each student will be asked a question regarding to implementation or YOLO details.<br>
+The other two students in the same group must not assist.<br>
+Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
