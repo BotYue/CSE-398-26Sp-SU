@@ -19,7 +19,7 @@ We will try on a simple dataset -- **Fashion MNIST**.
 
 ----------------------
 
-- [ ] **Model Training: Follow the PyTorch Fashion MNIST Tutorial and complete the model trainning.**
+- [ ] **Model Training: Follow the PyTorch Fashion MNIST Tutorial**
 
 * Typically, you don't want to train model in embeded devices due to resource constraints.
 <br>So, use either your own laptop or Cloud platform to train the model.
@@ -28,7 +28,8 @@ We will try on a simple dataset -- **Fashion MNIST**.
 * You can direct use the code blocks given in the official tutorial. Just one adjustment:
 <br>For Optimizer: change from `optimizer = torch.optim.SGD(model.parameters(), lr=0.001, momentum=0.9)` to `optimizer = torch.optim.Adam(model.parameters(), lr=0.001)`
 
-
+- [ ] **Model Saving**
+      
 - [ ] **Inference with Real Image**
 
 * Place a fashion item before a background. There are 10 accepted item types. They can be found in previous [kaggle hyperlink](https://www.kaggle.com/datasets/zalando-research/fashionmnist).
