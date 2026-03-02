@@ -148,7 +148,7 @@ It is distributed as:
 
 #### 6. Order Request
 
-Each group can request 50 USD (max 5 items) purchase from the department. The order needs to be reviewed and approved. 
+Each group can request 70 USD (max 5 items) purchase from the department. The order needs to be reviewed and approved. 
 
 However, groups are strongly encouraged to consider purchasing items on their own due to the possible delay in department purchase.
 
