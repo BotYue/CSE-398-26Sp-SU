@@ -16,16 +16,17 @@ Evening due: project proposal slides on Blackboard, in .pdf format.
 
 - [ ] **Presentation Format**
 
-Each group 10+ minutes presentation.
+Each group 8 minutes presentation.
 
-After it, 3 - 5 minutes Q&A
+After it, 3 - 5 minutes Q&A. Questions will be asked from another designated group
 
 - [ ] **Presentation Content**
 
-* Overview.
+* Overall Idea.
 * System Architecture Diagram
-* Proposed technical implementation 
+* Intro to technical implementation 
 * What you expect to showcase at the final demo
 * Materials to use, budget estimate
 * Project Timeline week by week
 * Others if your want to add, such as every member's specialty and roles, ethical considerations, ...
+
