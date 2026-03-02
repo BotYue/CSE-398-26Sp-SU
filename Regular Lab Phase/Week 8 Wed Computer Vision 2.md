@@ -60,10 +60,36 @@ print("Model loaded successfully on Raspberry Pi")
 
 * Next, try running Neural Network inference with a new image (not from the Fashion-MNIST dataset).
 <br> You may take a picture of your stuff or download any image online. Then preprocess it to match the Fashion-MNIST style (28×28, grayscale, clear contrast).
-<br>If you have trouble converting the image into the such style, I have some sample images provided in the Assets folder.
+<br> I provide a code that can preprocess a square shape picture, in "Asset" Folder -> Preprocess_Fashion.ipynb.
 
-* Now, create a new Python file. Perform inference on your image using the trained .pth model on the Raspberry Pi.
+
+* Now, perform inference on your image using the trained .pth model on the Raspberry Pi.
 <br>Print the predicted class label. Print the inference time
+
+```python
+# This is a Minimal Example
+from PIL import Image
+import torch
+import torchvision.transforms as transforms
+
+transform = transforms.Compose([
+    transforms.ToTensor(),
+    transforms.Normalize((0.5,), (0.5,))
+])
+
+img_path = "my_image.png"
+pil_img = Image.open(img_path).convert("L")
+
+img_t = transform(pil_img)      
+images = img_t.unsqueeze(0)     
+
+# Inference
+with torch.no_grad():
+    outputs = model(images)
+    pred = outputs.argmax(dim=1).item()
+
+print("Predicted class index:", pred)
+```
 
 🎉 **Check Point 1**
 
