@@ -29,7 +29,13 @@ We will try on a simple dataset -- **Fashion MNIST**.
 <br>For Optimizer: change from `optimizer = torch.optim.SGD(model.parameters(), lr=0.001, momentum=0.9)` to `optimizer = torch.optim.Adam(model.parameters(), lr=0.001)`
 
 - [ ] **Model Saving**
-      
+
+Once training completed, save the model 
+
+```python
+torch.save(model.state_dict(), "my_model.pth")
+```
+
 - [ ] **Inference with Real Image**
 
 * Place a fashion item before a background. There are 10 accepted item types. They can be found in previous [kaggle hyperlink](https://www.kaggle.com/datasets/zalando-research/fashionmnist).
