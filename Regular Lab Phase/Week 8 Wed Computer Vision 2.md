@@ -21,15 +21,12 @@ We will try on a simple dataset -- **Fashion MNIST**.
 
 - [ ] **Model Training: Follow the PyTorch Fashion MNIST Tutorial and complete the model trainning.**
 
-Typically, you don't want to train model in embeded devices due to resource constraints.
+* Typically, you don't want to train model in embeded devices due to resource constraints.
+<br>So, use either your own laptop or Cloud platform to train the model.
+<br>I recommend that you just use Google Colab because PyTorch is already there without extra installation.
 
-So, use either your own laptop or Cloud platform to train the model.
-
-I recommend that you just use Google Colab because PyTorch is already there without extra installation.
-
-You can direct use the code blocks given in the official tutorial.
-
-I personally set the `EPOCHS = 10` instead of `EPOCHS = 5` for better training results (but longer run).
+* You can direct use the code blocks given in the official tutorial.
+<br>I personally set the `EPOCHS = 10` instead of `EPOCHS = 5` for better training results (but longer run).
 
 - [ ] **Inference with Real Image**
 
