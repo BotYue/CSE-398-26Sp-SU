@@ -15,51 +15,20 @@ We will use **PyTorch** + **Torchvision** as deep vision framework. They are alr
 We will try on a simple dataset -- **Fashion MNIST**.
 
 * Dataset description: https://www.kaggle.com/datasets/zalando-research/fashionmnist
-* PyTorch training details: https://pytorch.org/tutorials/beginner/introyt/trainingyt.html
+* PyTorch Fashion MNIST Tutorial details: https://pytorch.org/tutorials/beginner/introyt/trainingyt.html
 
 ----------------------
 
-- [ ] **Prepare Training Data**
+- [ ] **Model Training: Follow the PyTorch Fashion MNIST Tutorial and complete the model trainning.**
 
-Use ```torchvision.datasets``` to download Fashion MNIST data to your local disk.
 
-https://pytorch.org/vision/0.21/generated/torchvision.datasets.FashionMNIST.html
 
-- [ ] **Check the Data**
+Typically, you don't want to train model in embeded devices due to resource constraints.
 
-Open your file folder to double check. You should have 8 files in 4 different names (4 compressed .gz, 4 raw ubyte). They are:
-* training set images
-* training set labels
-* testing set images
-* testing set labels
+So, use either your own laptop or Cloud platform to train the model.
 
-Start a new .py, use ```torchvision.datasets``` to load downloaded dataset. Then use ```matplotlib``` to display some images and their labels.
+We recommend that you just use Google Colab because PyTorch is already there without extra installation.
 
-<img src="Pic/Figure_1.png" height="500"> 
-
-- [ ] **Train Neural Network**
-> [!TIP]
-> The training can be done in your own laptop or any Cloud platform (such as Google Colab) for speeding up.
-> 
-Start over a new .py. Use ```torch.nn``` to create a neural network. Then train the neural network.
-
-* Save the trained model in your local disk.
-
-```shell
->>> %Run -c $EDITOR_CONTENT
-Epoch 1/10, Loss: 0.5135, Time: 135.63 sec
-Epoch 2/10, Loss: 0.3023, Time: 131.29 sec
-Epoch 3/10, Loss: 0.2528, Time: 130.57 sec
-Epoch 4/10, Loss: 0.2234, Time: 165.76 sec
-Epoch 5/10, Loss: 0.2018, Time: 163.32 sec
-Epoch 6/10, Loss: 0.1779, Time: 146.26 sec
-Epoch 7/10, Loss: 0.1628, Time: 157.00 sec
-Epoch 8/10, Loss: 0.1448, Time: 161.22 sec
-Epoch 9/10, Loss: 0.1313, Time: 162.27 sec
-Epoch 10/10, Loss: 0.1145, Time: 162.21 sec
-Total training time: 1515.51 sec
-Model trained and saved as /home/cao/Downloads/fashion_mnist_optimized.pth
-```
 
 - [ ] **Inference with Real Image**
 
