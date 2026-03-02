@@ -30,13 +30,32 @@ We will try on a simple dataset -- **Fashion MNIST**.
 
 - [ ] **Model Saving**
 
-Once training completed, save the model 
+Once training completed, save the trained weights
 
 ```python
 torch.save(model.state_dict(), "my_model.pth")
 ```
+Move this .pth to Raspberry Pi.
 
 - [ ] **Inference with Real Image**
+
+* In Rasp Pi, load the .pth model using the same Neural Network architecture.
+
+```python
+import torch.nn as nn
+import torch.nn.functional as F
+
+# Use the exact same Neural Network architecture in training
+class GarmentClassifier(nn.Module):
+    ........
+    .........
+
+model = GarmentClassifier()
+
+model.load_state_dict(torch.load("my_model.pth", map_location="cpu"))
+model.eval()
+print("Model loaded successfully on Raspberry Pi")
+```
 
 * Place a fashion item before a background. There are 10 accepted item types. They can be found in previous [kaggle hyperlink](https://www.kaggle.com/datasets/zalando-research/fashionmnist).
 
