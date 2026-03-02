@@ -57,7 +57,7 @@ Show your result. (Can use your laptop or raspberry pi)
 ------------------
 ## 2. Real-Time Video Frame Classification  — MobileNet
 
-In the Monday's task, when you run YOLO on Raspberry Pi 5, you may notice the frame rate is relatively low.
+In the Monday's task, when you run YOLO on Raspberry Pi 5, you may notice the frame rate is relatively low (less than 20 FPS).
 
 Instead of detecting **multiple objects + bounding boxes** (YOLO), we will simplify the problem to recognizing **a single main object** in the camera view.
 
