@@ -175,7 +175,11 @@ Your task is to implement a **real-time video frame classification system** usin
   * Predicted label
   * Confidence 
   * FPS
-  
+
+* CPU thread usage inspection (You can use `htop` in Terminal)
+  * Provide a screenshot of CPU thread usage when `torch.set_num_threads(2)`
+  * Provide a screenshot of CPU thread usage when set threads to other numbers such as 1 or 4.
+
 > [!TIP]
 >In Pi OS, the  ```cv2.imshow``` often conflicts with system GUI and may result to an error ```could not find the Qt platform plugin "wayland"``` . If so, you can use Python ```flask``` to display the stream on Pi's browser.
 > 
