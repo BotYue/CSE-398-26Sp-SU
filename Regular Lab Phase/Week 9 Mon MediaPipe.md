@@ -8,7 +8,8 @@
 
 
 Task 1:
-MediaPipe Studio
+
+The Usage of MediaPipe Studio
 
 https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/gesture_recognizer/raspberry_pi
 
@@ -18,10 +19,9 @@ https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/face_dete
 
 https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/face_landmarker/raspberry_pi
 
-https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/pose_landmarker/raspberry_pi
-
 Task 2:
-MediaPipe Solutions
+
+The Usage of MediaPipe Solutions
 
 https://ai.google.dev/edge/mediapipe/solutions/customization/image_classifier
 
