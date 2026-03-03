@@ -8,9 +8,9 @@
 
 ## 1. Image Classification Workflow — Fashion MNIST
 
-In this task, we will try the image classification workflow via deep learning. We will go thru the procedures step by step.
+In this task, we will try the deep-learning-based image classification workflow with embedded device. We will go thru the procedures step by step.
 
-We will use **PyTorch** + **Torchvision** as deep vision framework. They are already installed when you installed ```Ultralytics``` 
+We will use **PyTorch** + **Torchvision** . They are already installed when you installed ```Ultralytics``` 
 
 We will try on a simple dataset -- **Fashion MNIST**.
 
@@ -21,7 +21,7 @@ We will try on a simple dataset -- **Fashion MNIST**.
 
 - [ ] **Model Training: Follow the PyTorch Fashion MNIST Tutorial**
 
-* Typically, you don't want to train model in embeded devices due to resource constraints.
+* Typically, you don't want to train model in embedded devices due to limited computation resources.
 <br>So, use either your own laptop or Cloud platform to train the model.
 <br>I recommend that you just use Google Colab because PyTorch is already there without extra installation.
 
@@ -60,11 +60,12 @@ print("Model loaded successfully on Raspberry Pi")
 
 * Next, try running Neural Network inference with a new image (not from the Fashion-MNIST dataset).
 <br> You may take a picture of your stuff or download any image online. Then preprocess it to match the Fashion-MNIST style (28×28, grayscale, clear contrast).
-<br> I provide a code that can preprocess a **square shape picture**, in Folder "Asset -> Image Preprocess"
+<br> I provide a code that can preprocess from a **square shape image** to Fashion-MNIST style image, in Folder "Asset -> Image Preprocess"
 
 * Now, perform inference on your image using the trained .pth model on the Raspberry Pi.
-<br>Print the predicted class label. Print the inference time
-<br>The mapping from predicted class index to item label can be found in https://www.kaggle.com/datasets/zalando-research/fashionmnist (About Dataset->View More)
+<br>Print the predicted item label.
+<br>Print the inference time
+<br>Note: the mapping from predicted class index to item label can be found in https://www.kaggle.com/datasets/zalando-research/fashionmnist (About Dataset->View More)
 
 ```python
 # This is a Minimal Example
