@@ -37,6 +37,11 @@ torch.save(model.state_dict(), "my_model.pth")
 ```
 Move this .pth to Raspberry Pi.
 
+
+| **Save model as .pth after training done** |
+|---------|
+| <img src="Pic/colab_fashion2.png" height="350"> |
+
 - [ ] **Inference with Real Image**
 
 * In Rasp Pi, load the .pth model using the same Neural Network architecture.
