@@ -1,4 +1,4 @@
-# Week 10 Mon: MediaPipe Edge AI
+# Week 9 Mon: MediaPipe Edge AI
 
 ---------------
 #### :dizzy: **Lab Date :** Mar 16
