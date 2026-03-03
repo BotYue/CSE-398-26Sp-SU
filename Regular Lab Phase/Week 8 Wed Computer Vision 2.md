@@ -60,11 +60,11 @@ print("Model loaded successfully on Raspberry Pi")
 
 * Next, try running Neural Network inference with a new image (not from the Fashion-MNIST dataset).
 <br> You may take a picture of your stuff or download any image online. Then preprocess it to match the Fashion-MNIST style (28×28, grayscale, clear contrast).
-<br> I provide a code that can preprocess a square shape picture, in "Asset" Folder -> Preprocess_Fashion.ipynb.
-
+<br> I provide a code that can preprocess a **square shape picture**, in Folder "Asset -> Image Preprocess"
 
 * Now, perform inference on your image using the trained .pth model on the Raspberry Pi.
 <br>Print the predicted class label. Print the inference time
+<br>The mapping from predicted class index to item label can be found in https://www.kaggle.com/datasets/zalando-research/fashionmnist (About Dataset->View More)
 
 ```python
 # This is a Minimal Example
