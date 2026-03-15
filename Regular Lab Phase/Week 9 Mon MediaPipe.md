@@ -41,8 +41,7 @@ Demo the deployment
 
 ---------
 
-## 2. The Usage of MediaPipe Solutions
+## 2. Hardware–software integration
 
-https://ai.google.dev/edge/mediapipe/solutions/customization/image_classifier
 
 ---
