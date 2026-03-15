@@ -6,18 +6,31 @@
 #### :pencil: Every group member must be present for every check point.
 -------------------
 
+## 1. The Usage of MediaPipe Studio
 
-Task 1:
+The first task is to deploy these 2 out of the following 5 use cases from Google MediaPipe examples for Raspberry Pi.
 
-The Usage of MediaPipe Studio
+#### Pick 2 out of these 5:
 
-https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/gesture_recognizer/raspberry_pi
+* Gesture Recognize:<br> https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/gesture_recognizer/raspberry_pi
 
-https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/hand_landmarker/raspberry_pi
+* Hand Landmark:<br> https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/hand_landmarker/raspberry_pi
 
-https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/face_detector/raspberry_pi
+* Face Detect:<br> https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/face_detector/raspberry_pi
 
-https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/face_landmarker/raspberry_pi
+* Face Landmark:<br> https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/face_landmarker/raspberry_pi
+
+* Pose Landmarke:<br> https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/pose_landmarker/raspberry_pi
+
+- [ ] For sure, you need to install MediaPipe first.
+- [ ] Then, in each GitHub Repo, it may tell you to do `sh setup.sh`. I don't recommend run this.<br> Instead, read the `setup.sh` file, only run the last one `wget .....` in Terminal.
+- [ ] For each use case, understand how those parameters work and try to modify them.<br> You can find brief explanation in the GitHub Repo README.<br> You can also find detailed explanation in the Google website. https://ai.google.dev/edge/mediapipe/solutions/studio
+
+
+| **Detailed explanation on Google website, for example https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker** |
+|---------|
+| <img src="Pic/colab_fashion2.png" height="350"> |
+
 
 Task 2:
 
