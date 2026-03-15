@@ -41,7 +41,36 @@ Demo the deployment
 
 ---------
 
-## 2. Hardware–software integration
+## 2. Hardware–Software Integration with MediaPipe
 
+
+The second task today is an open-ended design of hardware–software integration.
+
+Specifically, you will extend **one MediaPipe use case from Task 1** and connect the AI detection result to a **physical hardware output device** on Raspberry Pi.
+
+Simply saying, use MediaPipe result to control a real device.
+
+The "hardware output device" may include any of the following:
+
+* LED
+* Buzzer
+* Motor
+* Relay
+* Small OLED display
+* ...
+
+You are free to pick any one you prefer and build your own system.
+<br> For examples: 
+* Gesture controlled LED;
+* Hand landmark controlled servo motor;
+* Face detection → alarm buzzer;
+* ...
 
 ---
+
+🎉 **Check Point 2**
+
+Each student must present **individually for 30 seconds** to describe personal contributions during this lab.<br>
+Each student will be asked a question regarding to implementation.<br>
+The other two students in the same group must not assist.<br>
+Failure to demonstrate meaningful contribution, or answer questions will result in point loss in the corresponding Markdown submission.
