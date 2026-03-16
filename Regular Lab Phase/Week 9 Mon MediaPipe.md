@@ -39,6 +39,10 @@ The first task is to deploy these 2 out of the following 5 use cases from Google
 
 Demo the deployment
 
+> If you can deploy 4 out of 5 use cases.
+>
+> can get **3/20 extra points back** in one single previous Markdown submission. (reach out to TA to recover your points)
+
 ---------
 
 ## 2. Hardware–Software Integration with MediaPipe
