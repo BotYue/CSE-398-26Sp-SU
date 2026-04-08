@@ -16,6 +16,8 @@ Choose only one option to finish
 
   All group member needs to work together and make a project video
 
+* If a student did both options, the student can get 2 bonus points in the final grade.
+  
 --------
 
 - [ ] **If you choose individual report**
