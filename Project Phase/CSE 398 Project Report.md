@@ -2,7 +2,7 @@
 
 - [ ] **Due Date**
 
-**May 5** on BlackBoard
+**May 5** on BlackBoard  (Tuesday)
 
 - [ ] **Options**
 
