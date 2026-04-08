@@ -40,7 +40,8 @@ Choose only one option to finish
 
 * The video should be at least 1080P.
 
-* Codecs: Use standard video codecs. Your video must be playable using the default media player on the lab computers.
+* Codecs: Use standard video codecs. Your video must be playable using the default media player on the university computers.<br>
+You can use the lecture computer in CST 3-211 to check.
 
 * The video should be around 2-4 minutes.. It should effectively and concisely highlight your project.
 
