@@ -4,13 +4,14 @@
 
 - [ ] **Due Date**
 
-Apr 22 (the demo day)
+Apr 22 (Print and show on the demo day; Also submit a copy to BlackBoard)
 
 - [ ] **Format**
 
 * 30 x 20 inches (76.2 × 50.8 cm) poster size<br>
-I will have this foam board for you to place one: <br>
-https://www.amazon.com/dp/B074QZMLQF?th=1
+We will have this foam board to place one:
+https://www.amazon.com/dp/B074QZMLQF?th=1 <br>
+We will also have poster stand: https://www.amazon.com/dp/B0DM1VSWWX
 
   If you use PowerPoint, you can adjust size in:
   Top Menu Tabs -> Design -> Slide Size -> Custom Slide Size.
