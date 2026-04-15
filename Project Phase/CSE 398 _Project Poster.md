@@ -13,6 +13,8 @@ We will have this foam board to place one:
 https://www.amazon.com/dp/B074QZMLQF?th=1 <br>
 We will also have poster stand: https://www.amazon.com/dp/B0DM1VSWWX
 
+foam boards and poster stands are in the storage room of the lab (the room always dark).
+
   If you use PowerPoint, you can adjust size in:
   Top Menu Tabs -> Design -> Slide Size -> Custom Slide Size.
 
